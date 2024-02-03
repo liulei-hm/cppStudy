@@ -3,24 +3,46 @@
 //
 #include "all.h"
 
+//多态学习
+
 class Animal{
 public:
     string name;
-public:
-    virtual void bark(){
-        cout << "animall" << endl;
+    void func(){
+        cout << "animal func" <<endl;
     }
+    virtual void age() {
+        cout << "animal age" << endl;
+    }
+    virtual void color() = 0;
+    virtual void bark() = 0;
 };
 
 class Dog:public Animal{
 public:
+    void func() {
+        cout << "Dog func" <<endl;
+    }
+    void age() override{
+        cout << "Dog age" <<endl;
+    }
+    virtual void color(){
+        cout << "Dog red" << endl;
+    }
     virtual void bark(){
         cout << "wang wang" << endl;
     }
 };
 
+
 class Cat:public Animal{   // 必须为共有继承，否则后面调用不到，class默认为私有继承！
 public:
+    void age(){
+        cout << "Cat age" <<endl;
+    }
+    virtual void color(){
+        cout << "Cat red" << endl;
+    }
     virtual void bark(){
         cout << "miao miao" << endl;
     }
@@ -47,15 +69,19 @@ void FunB()
 }
 
 int main(){
+
     Dog dog;
+
+    DogDog *dogdog = dynamic_cast<DogDog *>(&dog);
+    DogDogDog *dogdogdog = dynamic_cast<DogDogDog *>(&dog);
+    //DogDog dogdog* = &dog;
+    //Animal animal;
     Cat cat;
-    Animal animal;
-
-    Animal* panimal = &animal; //父类指针指向父类对象
+    Animal* panimal = &cat; //父类指针指向子类对象，多态实现
+    panimal->func();
+    panimal->age();
     panimal->bark();
-
-    panimal = &cat; //父类指针指向子类对象，多态实现
-    panimal->bark();
+    panimal->name = "cat";
 
     A a;
     B b;

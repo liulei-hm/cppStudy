@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: cppthing
+# Project: cppstudy
 # Configurations: Debug
 # =============================================================================
 
@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/liulei/Desktop/clionprj/cppthing/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/liulei/Desktop/clionprj/cppStudy/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target gtestDemo
 
@@ -49,10 +49,10 @@ cmake_ninja_workdir = C$:/Users/liulei/Desktop/clionprj/cppthing/cmake-build-deb
 
 build cmake_object_order_depends_target_gtestDemo: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
-build CMakeFiles/gtestDemo.dir/src/gtestDemo.cpp.obj: CXX_COMPILER__gtestDemo_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/gtestDemo.cpp || cmake_object_order_depends_target_gtestDemo
+build CMakeFiles/gtestDemo.dir/src/gtestDemo.cpp.obj: CXX_COMPILER__gtestDemo_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/gtestDemo.cpp || cmake_object_order_depends_target_gtestDemo
   DEP_FILE = CMakeFiles\gtestDemo.dir\src\gtestDemo.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -isystem C:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -isystem C:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -isystem C:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -isystem C:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\gtestDemo.dir
   OBJECT_FILE_DIR = CMakeFiles\gtestDemo.dir\src
 
@@ -83,73 +83,73 @@ build gtestDemo.exe: CXX_EXECUTABLE_LINKER__gtestDemo_Debug CMakeFiles/gtestDemo
 
 build cmake_object_order_depends_target_cppthing: phony || CMakeFiles/cppthing.dir
 
-build CMakeFiles/cppthing.dir/main.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/main.cpp || cmake_object_order_depends_target_cppthing
+build CMakeFiles/cppthing.dir/main.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/main.cpp || cmake_object_order_depends_target_cppthing
   DEP_FILE = CMakeFiles\cppthing.dir\main.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\cppthing.dir
   OBJECT_FILE_DIR = CMakeFiles\cppthing.dir
 
-build CMakeFiles/cppthing.dir/src/car.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/car.cpp || cmake_object_order_depends_target_cppthing
+build CMakeFiles/cppthing.dir/src/car.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/car.cpp || cmake_object_order_depends_target_cppthing
   DEP_FILE = CMakeFiles\cppthing.dir\src\car.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\cppthing.dir
   OBJECT_FILE_DIR = CMakeFiles\cppthing.dir\src
 
-build CMakeFiles/cppthing.dir/src/iterator.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/iterator.cpp || cmake_object_order_depends_target_cppthing
+build CMakeFiles/cppthing.dir/src/iterator.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/iterator.cpp || cmake_object_order_depends_target_cppthing
   DEP_FILE = CMakeFiles\cppthing.dir\src\iterator.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\cppthing.dir
   OBJECT_FILE_DIR = CMakeFiles\cppthing.dir\src
 
-build CMakeFiles/cppthing.dir/src/iostream.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/iostream.cpp || cmake_object_order_depends_target_cppthing
+build CMakeFiles/cppthing.dir/src/iostream.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/iostream.cpp || cmake_object_order_depends_target_cppthing
   DEP_FILE = CMakeFiles\cppthing.dir\src\iostream.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\cppthing.dir
   OBJECT_FILE_DIR = CMakeFiles\cppthing.dir\src
 
-build CMakeFiles/cppthing.dir/src/pionter.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/pionter.cpp || cmake_object_order_depends_target_cppthing
+build CMakeFiles/cppthing.dir/src/pionter.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/pionter.cpp || cmake_object_order_depends_target_cppthing
   DEP_FILE = CMakeFiles\cppthing.dir\src\pionter.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\cppthing.dir
   OBJECT_FILE_DIR = CMakeFiles\cppthing.dir\src
 
-build CMakeFiles/cppthing.dir/src/move_constructor.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/move_constructor.cpp || cmake_object_order_depends_target_cppthing
+build CMakeFiles/cppthing.dir/src/move_constructor.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/move_constructor.cpp || cmake_object_order_depends_target_cppthing
   DEP_FILE = CMakeFiles\cppthing.dir\src\move_constructor.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\cppthing.dir
   OBJECT_FILE_DIR = CMakeFiles\cppthing.dir\src
 
-build CMakeFiles/cppthing.dir/src/copy_constuctor.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/copy_constuctor.cpp || cmake_object_order_depends_target_cppthing
+build CMakeFiles/cppthing.dir/src/copy_constuctor.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/copy_constuctor.cpp || cmake_object_order_depends_target_cppthing
   DEP_FILE = CMakeFiles\cppthing.dir\src\copy_constuctor.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\cppthing.dir
   OBJECT_FILE_DIR = CMakeFiles\cppthing.dir\src
 
-build CMakeFiles/cppthing.dir/src/smart_ptr.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/smart_ptr.cpp || cmake_object_order_depends_target_cppthing
+build CMakeFiles/cppthing.dir/src/smart_ptr.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/smart_ptr.cpp || cmake_object_order_depends_target_cppthing
   DEP_FILE = CMakeFiles\cppthing.dir\src\smart_ptr.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\cppthing.dir
   OBJECT_FILE_DIR = CMakeFiles\cppthing.dir\src
 
-build CMakeFiles/cppthing.dir/src/ref_count.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/ref_count.cpp || cmake_object_order_depends_target_cppthing
+build CMakeFiles/cppthing.dir/src/ref_count.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/ref_count.cpp || cmake_object_order_depends_target_cppthing
   DEP_FILE = CMakeFiles\cppthing.dir\src\ref_count.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\cppthing.dir
   OBJECT_FILE_DIR = CMakeFiles\cppthing.dir\src
 
-build CMakeFiles/cppthing.dir/src/weak_ptr.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/weak_ptr.cpp || cmake_object_order_depends_target_cppthing
+build CMakeFiles/cppthing.dir/src/weak_ptr.cpp.obj: CXX_COMPILER__cppthing_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/weak_ptr.cpp || cmake_object_order_depends_target_cppthing
   DEP_FILE = CMakeFiles\cppthing.dir\src\weak_ptr.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\cppthing.dir
   OBJECT_FILE_DIR = CMakeFiles\cppthing.dir\src
 
@@ -180,10 +180,10 @@ build cppthing.exe: CXX_EXECUTABLE_LINKER__cppthing_Debug CMakeFiles/cppthing.di
 
 build cmake_object_order_depends_target_mymap: phony || CMakeFiles/mymap.dir
 
-build CMakeFiles/mymap.dir/STL/mymap.cpp.obj: CXX_COMPILER__mymap_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/mymap.cpp || cmake_object_order_depends_target_mymap
+build CMakeFiles/mymap.dir/STL/mymap.cpp.obj: CXX_COMPILER__mymap_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/mymap.cpp || cmake_object_order_depends_target_mymap
   DEP_FILE = CMakeFiles\mymap.dir\STL\mymap.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\mymap.dir
   OBJECT_FILE_DIR = CMakeFiles\mymap.dir\STL
 
@@ -214,10 +214,10 @@ build mymap.exe: CXX_EXECUTABLE_LINKER__mymap_Debug CMakeFiles/mymap.dir/STL/mym
 
 build cmake_object_order_depends_target_assert: phony || CMakeFiles/assert.dir
 
-build CMakeFiles/assert.dir/src/assert.cpp.obj: CXX_COMPILER__assert_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/assert.cpp || cmake_object_order_depends_target_assert
+build CMakeFiles/assert.dir/src/assert.cpp.obj: CXX_COMPILER__assert_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/assert.cpp || cmake_object_order_depends_target_assert
   DEP_FILE = CMakeFiles\assert.dir\src\assert.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\assert.dir
   OBJECT_FILE_DIR = CMakeFiles\assert.dir\src
 
@@ -248,10 +248,10 @@ build assert.exe: CXX_EXECUTABLE_LINKER__assert_Debug CMakeFiles/assert.dir/src/
 
 build cmake_object_order_depends_target_poly: phony || CMakeFiles/poly.dir
 
-build CMakeFiles/poly.dir/src/poly.cpp.obj: CXX_COMPILER__poly_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/poly.cpp || cmake_object_order_depends_target_poly
+build CMakeFiles/poly.dir/src/poly.cpp.obj: CXX_COMPILER__poly_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/poly.cpp || cmake_object_order_depends_target_poly
   DEP_FILE = CMakeFiles\poly.dir\src\poly.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\poly.dir
   OBJECT_FILE_DIR = CMakeFiles\poly.dir\src
 
@@ -282,10 +282,10 @@ build poly.exe: CXX_EXECUTABLE_LINKER__poly_Debug CMakeFiles/poly.dir/src/poly.c
 
 build cmake_object_order_depends_target_maohao: phony || CMakeFiles/maohao.dir
 
-build CMakeFiles/maohao.dir/src/maohao.cpp.obj: CXX_COMPILER__maohao_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/maohao.cpp || cmake_object_order_depends_target_maohao
+build CMakeFiles/maohao.dir/src/maohao.cpp.obj: CXX_COMPILER__maohao_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/maohao.cpp || cmake_object_order_depends_target_maohao
   DEP_FILE = CMakeFiles\maohao.dir\src\maohao.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\maohao.dir
   OBJECT_FILE_DIR = CMakeFiles\maohao.dir\src
 
@@ -316,10 +316,10 @@ build maohao.exe: CXX_EXECUTABLE_LINKER__maohao_Debug CMakeFiles/maohao.dir/src/
 
 build cmake_object_order_depends_target_define: phony || CMakeFiles/define.dir
 
-build CMakeFiles/define.dir/src/define.cpp.obj: CXX_COMPILER__define_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/define.cpp || cmake_object_order_depends_target_define
+build CMakeFiles/define.dir/src/define.cpp.obj: CXX_COMPILER__define_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/define.cpp || cmake_object_order_depends_target_define
   DEP_FILE = CMakeFiles\define.dir\src\define.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\define.dir
   OBJECT_FILE_DIR = CMakeFiles\define.dir\src
 
@@ -350,10 +350,10 @@ build define.exe: CXX_EXECUTABLE_LINKER__define_Debug CMakeFiles/define.dir/src/
 
 build cmake_object_order_depends_target_mystring: phony || CMakeFiles/mystring.dir
 
-build CMakeFiles/mystring.dir/STL/mystring.cpp.obj: CXX_COMPILER__mystring_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/mystring.cpp || cmake_object_order_depends_target_mystring
+build CMakeFiles/mystring.dir/STL/mystring.cpp.obj: CXX_COMPILER__mystring_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/mystring.cpp || cmake_object_order_depends_target_mystring
   DEP_FILE = CMakeFiles\mystring.dir\STL\mystring.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\mystring.dir
   OBJECT_FILE_DIR = CMakeFiles\mystring.dir\STL
 
@@ -384,10 +384,10 @@ build mystring.exe: CXX_EXECUTABLE_LINKER__mystring_Debug CMakeFiles/mystring.di
 
 build cmake_object_order_depends_target_myvector: phony || CMakeFiles/myvector.dir
 
-build CMakeFiles/myvector.dir/STL/myvector.cpp.obj: CXX_COMPILER__myvector_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/myvector.cpp || cmake_object_order_depends_target_myvector
+build CMakeFiles/myvector.dir/STL/myvector.cpp.obj: CXX_COMPILER__myvector_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/myvector.cpp || cmake_object_order_depends_target_myvector
   DEP_FILE = CMakeFiles\myvector.dir\STL\myvector.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\myvector.dir
   OBJECT_FILE_DIR = CMakeFiles\myvector.dir\STL
 
@@ -418,10 +418,10 @@ build myvector.exe: CXX_EXECUTABLE_LINKER__myvector_Debug CMakeFiles/myvector.di
 
 build cmake_object_order_depends_target_mystack: phony || CMakeFiles/mystack.dir
 
-build CMakeFiles/mystack.dir/STL/mystack.cpp.obj: CXX_COMPILER__mystack_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/mystack.cpp || cmake_object_order_depends_target_mystack
+build CMakeFiles/mystack.dir/STL/mystack.cpp.obj: CXX_COMPILER__mystack_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/mystack.cpp || cmake_object_order_depends_target_mystack
   DEP_FILE = CMakeFiles\mystack.dir\STL\mystack.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\mystack.dir
   OBJECT_FILE_DIR = CMakeFiles\mystack.dir\STL
 
@@ -452,10 +452,10 @@ build mystack.exe: CXX_EXECUTABLE_LINKER__mystack_Debug CMakeFiles/mystack.dir/S
 
 build cmake_object_order_depends_target_oj: phony || CMakeFiles/oj.dir
 
-build CMakeFiles/oj.dir/OJ/oj.cpp.obj: CXX_COMPILER__oj_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/OJ/oj.cpp || cmake_object_order_depends_target_oj
+build CMakeFiles/oj.dir/OJ/oj.cpp.obj: CXX_COMPILER__oj_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/OJ/oj.cpp || cmake_object_order_depends_target_oj
   DEP_FILE = CMakeFiles\oj.dir\OJ\oj.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\oj.dir
   OBJECT_FILE_DIR = CMakeFiles\oj.dir\OJ
 
@@ -486,10 +486,10 @@ build oj.exe: CXX_EXECUTABLE_LINKER__oj_Debug CMakeFiles/oj.dir/OJ/oj.cpp.obj
 
 build cmake_object_order_depends_target_template: phony || CMakeFiles/template.dir
 
-build CMakeFiles/template.dir/src/template.cpp.obj: CXX_COMPILER__template_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/template.cpp || cmake_object_order_depends_target_template
+build CMakeFiles/template.dir/src/template.cpp.obj: CXX_COMPILER__template_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/template.cpp || cmake_object_order_depends_target_template
   DEP_FILE = CMakeFiles\template.dir\src\template.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\template.dir
   OBJECT_FILE_DIR = CMakeFiles\template.dir\src
 
@@ -520,10 +520,10 @@ build template.exe: CXX_EXECUTABLE_LINKER__template_Debug CMakeFiles/template.di
 
 build cmake_object_order_depends_target_my_sort: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
-build CMakeFiles/my_sort.dir/mylib/my_sort.cpp.obj: CXX_COMPILER__my_sort_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/mylib/my_sort.cpp || cmake_object_order_depends_target_my_sort
+build CMakeFiles/my_sort.dir/mylib/my_sort.cpp.obj: CXX_COMPILER__my_sort_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/mylib/my_sort.cpp || cmake_object_order_depends_target_my_sort
   DEP_FILE = CMakeFiles\my_sort.dir\mylib\my_sort.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -isystem C:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -isystem C:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -isystem C:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -isystem C:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\my_sort.dir
   OBJECT_FILE_DIR = CMakeFiles\my_sort.dir\mylib
 
@@ -554,10 +554,10 @@ build my_sort.exe: CXX_EXECUTABLE_LINKER__my_sort_Debug CMakeFiles/my_sort.dir/m
 
 build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
 
-build CMakeFiles/test.dir/Test/test.cpp.obj: CXX_COMPILER__test_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/Test/test.cpp || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Test/test.cpp.obj: CXX_COMPILER__test_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/Test/test.cpp || cmake_object_order_depends_target_test
   DEP_FILE = CMakeFiles\test.dir\Test\test.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\test.dir
   OBJECT_FILE_DIR = CMakeFiles\test.dir\Test
 
@@ -588,10 +588,10 @@ build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/Test/test.
 
 build cmake_object_order_depends_target_salary: phony || CMakeFiles/salary.dir
 
-build CMakeFiles/salary.dir/src/salary.cpp.obj: CXX_COMPILER__salary_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/salary.cpp || cmake_object_order_depends_target_salary
+build CMakeFiles/salary.dir/src/salary.cpp.obj: CXX_COMPILER__salary_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/salary.cpp || cmake_object_order_depends_target_salary
   DEP_FILE = CMakeFiles\salary.dir\src\salary.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\salary.dir
   OBJECT_FILE_DIR = CMakeFiles\salary.dir\src
 
@@ -622,10 +622,10 @@ build salary.exe: CXX_EXECUTABLE_LINKER__salary_Debug CMakeFiles/salary.dir/src/
 
 build cmake_object_order_depends_target_LRU: phony || CMakeFiles/LRU.dir
 
-build CMakeFiles/LRU.dir/Algorithm/LRU.cpp.obj: CXX_COMPILER__LRU_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/Algorithm/LRU.cpp || cmake_object_order_depends_target_LRU
+build CMakeFiles/LRU.dir/Algorithm/LRU.cpp.obj: CXX_COMPILER__LRU_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/Algorithm/LRU.cpp || cmake_object_order_depends_target_LRU
   DEP_FILE = CMakeFiles\LRU.dir\Algorithm\LRU.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\LRU.dir
   OBJECT_FILE_DIR = CMakeFiles\LRU.dir\Algorithm
 
@@ -656,10 +656,10 @@ build LRU.exe: CXX_EXECUTABLE_LINKER__LRU_Debug CMakeFiles/LRU.dir/Algorithm/LRU
 
 build cmake_object_order_depends_target_LRUopt: phony || CMakeFiles/LRUopt.dir
 
-build CMakeFiles/LRUopt.dir/Algorithm/LRUopt.cpp.obj: CXX_COMPILER__LRUopt_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/Algorithm/LRUopt.cpp || cmake_object_order_depends_target_LRUopt
+build CMakeFiles/LRUopt.dir/Algorithm/LRUopt.cpp.obj: CXX_COMPILER__LRUopt_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/Algorithm/LRUopt.cpp || cmake_object_order_depends_target_LRUopt
   DEP_FILE = CMakeFiles\LRUopt.dir\Algorithm\LRUopt.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\LRUopt.dir
   OBJECT_FILE_DIR = CMakeFiles\LRUopt.dir\Algorithm
 
@@ -690,10 +690,10 @@ build LRUopt.exe: CXX_EXECUTABLE_LINKER__LRUopt_Debug CMakeFiles/LRUopt.dir/Algo
 
 build cmake_object_order_depends_target_LRUnoListOpt: phony || CMakeFiles/LRUnoListOpt.dir
 
-build CMakeFiles/LRUnoListOpt.dir/Algorithm/LRUnoListOpt.cpp.obj: CXX_COMPILER__LRUnoListOpt_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/Algorithm/LRUnoListOpt.cpp || cmake_object_order_depends_target_LRUnoListOpt
+build CMakeFiles/LRUnoListOpt.dir/Algorithm/LRUnoListOpt.cpp.obj: CXX_COMPILER__LRUnoListOpt_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/Algorithm/LRUnoListOpt.cpp || cmake_object_order_depends_target_LRUnoListOpt
   DEP_FILE = CMakeFiles\LRUnoListOpt.dir\Algorithm\LRUnoListOpt.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\LRUnoListOpt.dir
   OBJECT_FILE_DIR = CMakeFiles\LRUnoListOpt.dir\Algorithm
 
@@ -724,10 +724,10 @@ build LRUnoListOpt.exe: CXX_EXECUTABLE_LINKER__LRUnoListOpt_Debug CMakeFiles/LRU
 
 build cmake_object_order_depends_target_override: phony || CMakeFiles/override.dir
 
-build CMakeFiles/override.dir/src/override.cpp.obj: CXX_COMPILER__override_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/override.cpp || cmake_object_order_depends_target_override
+build CMakeFiles/override.dir/src/override.cpp.obj: CXX_COMPILER__override_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/override.cpp || cmake_object_order_depends_target_override
   DEP_FILE = CMakeFiles\override.dir\src\override.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\override.dir
   OBJECT_FILE_DIR = CMakeFiles\override.dir\src
 
@@ -758,10 +758,10 @@ build override.exe: CXX_EXECUTABLE_LINKER__override_Debug CMakeFiles/override.di
 
 build cmake_object_order_depends_target_friend: phony || CMakeFiles/friend.dir
 
-build CMakeFiles/friend.dir/src/friend.cpp.obj: CXX_COMPILER__friend_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/friend.cpp || cmake_object_order_depends_target_friend
+build CMakeFiles/friend.dir/src/friend.cpp.obj: CXX_COMPILER__friend_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/friend.cpp || cmake_object_order_depends_target_friend
   DEP_FILE = CMakeFiles\friend.dir\src\friend.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\friend.dir
   OBJECT_FILE_DIR = CMakeFiles\friend.dir\src
 
@@ -792,10 +792,10 @@ build friend.exe: CXX_EXECUTABLE_LINKER__friend_Debug CMakeFiles/friend.dir/src/
 
 build cmake_object_order_depends_target_constructor: phony || CMakeFiles/constructor.dir
 
-build CMakeFiles/constructor.dir/src/constructor.cpp.obj: CXX_COMPILER__constructor_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/constructor.cpp || cmake_object_order_depends_target_constructor
+build CMakeFiles/constructor.dir/src/constructor.cpp.obj: CXX_COMPILER__constructor_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/constructor.cpp || cmake_object_order_depends_target_constructor
   DEP_FILE = CMakeFiles\constructor.dir\src\constructor.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\constructor.dir
   OBJECT_FILE_DIR = CMakeFiles\constructor.dir\src
 
@@ -826,10 +826,10 @@ build constructor.exe: CXX_EXECUTABLE_LINKER__constructor_Debug CMakeFiles/const
 
 build cmake_object_order_depends_target_cast: phony || CMakeFiles/cast.dir
 
-build CMakeFiles/cast.dir/src/cast.cpp.obj: CXX_COMPILER__cast_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/cast.cpp || cmake_object_order_depends_target_cast
+build CMakeFiles/cast.dir/src/cast.cpp.obj: CXX_COMPILER__cast_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/cast.cpp || cmake_object_order_depends_target_cast
   DEP_FILE = CMakeFiles\cast.dir\src\cast.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\cast.dir
   OBJECT_FILE_DIR = CMakeFiles\cast.dir\src
 
@@ -860,10 +860,10 @@ build cast.exe: CXX_EXECUTABLE_LINKER__cast_Debug CMakeFiles/cast.dir/src/cast.c
 
 build cmake_object_order_depends_target_trieTree: phony || CMakeFiles/trieTree.dir
 
-build CMakeFiles/trieTree.dir/Algorithm/trieTree.cpp.obj: CXX_COMPILER__trieTree_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/Algorithm/trieTree.cpp || cmake_object_order_depends_target_trieTree
+build CMakeFiles/trieTree.dir/Algorithm/trieTree.cpp.obj: CXX_COMPILER__trieTree_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/Algorithm/trieTree.cpp || cmake_object_order_depends_target_trieTree
   DEP_FILE = CMakeFiles\trieTree.dir\Algorithm\trieTree.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\trieTree.dir
   OBJECT_FILE_DIR = CMakeFiles\trieTree.dir\Algorithm
 
@@ -894,10 +894,10 @@ build trieTree.exe: CXX_EXECUTABLE_LINKER__trieTree_Debug CMakeFiles/trieTree.di
 
 build cmake_object_order_depends_target_shortJobFirst: phony || CMakeFiles/shortJobFirst.dir
 
-build CMakeFiles/shortJobFirst.dir/Algorithm/shortJobFirst.cpp.obj: CXX_COMPILER__shortJobFirst_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/Algorithm/shortJobFirst.cpp || cmake_object_order_depends_target_shortJobFirst
+build CMakeFiles/shortJobFirst.dir/Algorithm/shortJobFirst.cpp.obj: CXX_COMPILER__shortJobFirst_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/Algorithm/shortJobFirst.cpp || cmake_object_order_depends_target_shortJobFirst
   DEP_FILE = CMakeFiles\shortJobFirst.dir\Algorithm\shortJobFirst.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\shortJobFirst.dir
   OBJECT_FILE_DIR = CMakeFiles\shortJobFirst.dir\Algorithm
 
@@ -928,10 +928,10 @@ build shortJobFirst.exe: CXX_EXECUTABLE_LINKER__shortJobFirst_Debug CMakeFiles/s
 
 build cmake_object_order_depends_target_trieTree_replaceWords: phony || CMakeFiles/trieTree_replaceWords.dir
 
-build CMakeFiles/trieTree_replaceWords.dir/Algorithm/trieTree_replaceWords.cpp.obj: CXX_COMPILER__trieTree_replaceWords_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/Algorithm/trieTree_replaceWords.cpp || cmake_object_order_depends_target_trieTree_replaceWords
+build CMakeFiles/trieTree_replaceWords.dir/Algorithm/trieTree_replaceWords.cpp.obj: CXX_COMPILER__trieTree_replaceWords_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/Algorithm/trieTree_replaceWords.cpp || cmake_object_order_depends_target_trieTree_replaceWords
   DEP_FILE = CMakeFiles\trieTree_replaceWords.dir\Algorithm\trieTree_replaceWords.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\trieTree_replaceWords.dir
   OBJECT_FILE_DIR = CMakeFiles\trieTree_replaceWords.dir\Algorithm
 
@@ -962,10 +962,10 @@ build trieTree_replaceWords.exe: CXX_EXECUTABLE_LINKER__trieTree_replaceWords_De
 
 build cmake_object_order_depends_target_buildTree: phony || CMakeFiles/buildTree.dir
 
-build CMakeFiles/buildTree.dir/Algorithm/buildTree.cpp.obj: CXX_COMPILER__buildTree_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/Algorithm/buildTree.cpp || cmake_object_order_depends_target_buildTree
+build CMakeFiles/buildTree.dir/Algorithm/buildTree.cpp.obj: CXX_COMPILER__buildTree_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/Algorithm/buildTree.cpp || cmake_object_order_depends_target_buildTree
   DEP_FILE = CMakeFiles\buildTree.dir\Algorithm\buildTree.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\buildTree.dir
   OBJECT_FILE_DIR = CMakeFiles\buildTree.dir\Algorithm
 
@@ -996,10 +996,10 @@ build buildTree.exe: CXX_EXECUTABLE_LINKER__buildTree_Debug CMakeFiles/buildTree
 
 build cmake_object_order_depends_target_mypriority_queue: phony || CMakeFiles/mypriority_queue.dir
 
-build CMakeFiles/mypriority_queue.dir/STL/mypriority_queue.cpp.obj: CXX_COMPILER__mypriority_queue_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/mypriority_queue.cpp || cmake_object_order_depends_target_mypriority_queue
+build CMakeFiles/mypriority_queue.dir/STL/mypriority_queue.cpp.obj: CXX_COMPILER__mypriority_queue_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/mypriority_queue.cpp || cmake_object_order_depends_target_mypriority_queue
   DEP_FILE = CMakeFiles\mypriority_queue.dir\STL\mypriority_queue.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\mypriority_queue.dir
   OBJECT_FILE_DIR = CMakeFiles\mypriority_queue.dir\STL
 
@@ -1030,10 +1030,10 @@ build mypriority_queue.exe: CXX_EXECUTABLE_LINKER__mypriority_queue_Debug CMakeF
 
 build cmake_object_order_depends_target_simplefactory: phony || CMakeFiles/simplefactory.dir
 
-build CMakeFiles/simplefactory.dir/DesignPattern/SimpleFactory/simplefactory.cpp.obj: CXX_COMPILER__simplefactory_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/DesignPattern/SimpleFactory/simplefactory.cpp || cmake_object_order_depends_target_simplefactory
+build CMakeFiles/simplefactory.dir/DesignPattern/SimpleFactory/simplefactory.cpp.obj: CXX_COMPILER__simplefactory_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/DesignPattern/SimpleFactory/simplefactory.cpp || cmake_object_order_depends_target_simplefactory
   DEP_FILE = CMakeFiles\simplefactory.dir\DesignPattern\SimpleFactory\simplefactory.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\simplefactory.dir
   OBJECT_FILE_DIR = CMakeFiles\simplefactory.dir\DesignPattern\SimpleFactory
 
@@ -1064,10 +1064,10 @@ build simplefactory.exe: CXX_EXECUTABLE_LINKER__simplefactory_Debug CMakeFiles/s
 
 build cmake_object_order_depends_target_singleton: phony || CMakeFiles/singleton.dir
 
-build CMakeFiles/singleton.dir/DesignPattern/Singleton/singleton.cpp.obj: CXX_COMPILER__singleton_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/DesignPattern/Singleton/singleton.cpp || cmake_object_order_depends_target_singleton
+build CMakeFiles/singleton.dir/DesignPattern/Singleton/singleton.cpp.obj: CXX_COMPILER__singleton_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/DesignPattern/Singleton/singleton.cpp || cmake_object_order_depends_target_singleton
   DEP_FILE = CMakeFiles\singleton.dir\DesignPattern\Singleton\singleton.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\singleton.dir
   OBJECT_FILE_DIR = CMakeFiles\singleton.dir\DesignPattern\Singleton
 
@@ -1098,10 +1098,10 @@ build singleton.exe: CXX_EXECUTABLE_LINKER__singleton_Debug CMakeFiles/singleton
 
 build cmake_object_order_depends_target_mythread: phony || CMakeFiles/mythread.dir
 
-build CMakeFiles/mythread.dir/STL/Concurrency/Thread/thread.cpp.obj: CXX_COMPILER__mythread_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/Concurrency/Thread/thread.cpp || cmake_object_order_depends_target_mythread
+build CMakeFiles/mythread.dir/STL/Concurrency/Thread/thread.cpp.obj: CXX_COMPILER__mythread_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/Concurrency/Thread/thread.cpp || cmake_object_order_depends_target_mythread
   DEP_FILE = CMakeFiles\mythread.dir\STL\Concurrency\Thread\thread.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\mythread.dir
   OBJECT_FILE_DIR = CMakeFiles\mythread.dir\STL\Concurrency\Thread
 
@@ -1132,10 +1132,10 @@ build mythread.exe: CXX_EXECUTABLE_LINKER__mythread_Debug CMakeFiles/mythread.di
 
 build cmake_object_order_depends_target_lock_guard: phony || CMakeFiles/lock_guard.dir
 
-build CMakeFiles/lock_guard.dir/STL/Concurrency/Lock_guard/lock_guard.cpp.obj: CXX_COMPILER__lock_guard_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/Concurrency/Lock_guard/lock_guard.cpp || cmake_object_order_depends_target_lock_guard
+build CMakeFiles/lock_guard.dir/STL/Concurrency/Lock_guard/lock_guard.cpp.obj: CXX_COMPILER__lock_guard_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/Concurrency/Lock_guard/lock_guard.cpp || cmake_object_order_depends_target_lock_guard
   DEP_FILE = CMakeFiles\lock_guard.dir\STL\Concurrency\Lock_guard\lock_guard.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\lock_guard.dir
   OBJECT_FILE_DIR = CMakeFiles\lock_guard.dir\STL\Concurrency\Lock_guard
 
@@ -1166,10 +1166,10 @@ build lock_guard.exe: CXX_EXECUTABLE_LINKER__lock_guard_Debug CMakeFiles/lock_gu
 
 build cmake_object_order_depends_target_destruct: phony || CMakeFiles/destruct.dir
 
-build CMakeFiles/destruct.dir/src/destruct.cpp.obj: CXX_COMPILER__destruct_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/destruct.cpp || cmake_object_order_depends_target_destruct
+build CMakeFiles/destruct.dir/src/destruct.cpp.obj: CXX_COMPILER__destruct_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/destruct.cpp || cmake_object_order_depends_target_destruct
   DEP_FILE = CMakeFiles\destruct.dir\src\destruct.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\destruct.dir
   OBJECT_FILE_DIR = CMakeFiles\destruct.dir\src
 
@@ -1200,10 +1200,10 @@ build destruct.exe: CXX_EXECUTABLE_LINKER__destruct_Debug CMakeFiles/destruct.di
 
 build cmake_object_order_depends_target_unique_lock: phony || CMakeFiles/unique_lock.dir
 
-build CMakeFiles/unique_lock.dir/STL/Concurrency/Lock_guard/unique_lock.cpp.obj: CXX_COMPILER__unique_lock_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/Concurrency/Lock_guard/unique_lock.cpp || cmake_object_order_depends_target_unique_lock
+build CMakeFiles/unique_lock.dir/STL/Concurrency/Lock_guard/unique_lock.cpp.obj: CXX_COMPILER__unique_lock_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/Concurrency/Lock_guard/unique_lock.cpp || cmake_object_order_depends_target_unique_lock
   DEP_FILE = CMakeFiles\unique_lock.dir\STL\Concurrency\Lock_guard\unique_lock.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\unique_lock.dir
   OBJECT_FILE_DIR = CMakeFiles\unique_lock.dir\STL\Concurrency\Lock_guard
 
@@ -1234,10 +1234,10 @@ build unique_lock.exe: CXX_EXECUTABLE_LINKER__unique_lock_Debug CMakeFiles/uniqu
 
 build cmake_object_order_depends_target_mutex: phony || CMakeFiles/mutex.dir
 
-build CMakeFiles/mutex.dir/STL/Concurrency/Mutex/mutex.cpp.obj: CXX_COMPILER__mutex_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/Concurrency/Mutex/mutex.cpp || cmake_object_order_depends_target_mutex
+build CMakeFiles/mutex.dir/STL/Concurrency/Mutex/mutex.cpp.obj: CXX_COMPILER__mutex_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/Concurrency/Mutex/mutex.cpp || cmake_object_order_depends_target_mutex
   DEP_FILE = CMakeFiles\mutex.dir\STL\Concurrency\Mutex\mutex.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\mutex.dir
   OBJECT_FILE_DIR = CMakeFiles\mutex.dir\STL\Concurrency\Mutex
 
@@ -1268,10 +1268,10 @@ build mutex.exe: CXX_EXECUTABLE_LINKER__mutex_Debug CMakeFiles/mutex.dir/STL/Con
 
 build cmake_object_order_depends_target_rightquete: phony || CMakeFiles/rightquete.dir
 
-build CMakeFiles/rightquete.dir/src/rightquete.cpp.obj: CXX_COMPILER__rightquete_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/rightquete.cpp || cmake_object_order_depends_target_rightquete
+build CMakeFiles/rightquete.dir/src/rightquete.cpp.obj: CXX_COMPILER__rightquete_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/rightquete.cpp || cmake_object_order_depends_target_rightquete
   DEP_FILE = CMakeFiles\rightquete.dir\src\rightquete.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\rightquete.dir
   OBJECT_FILE_DIR = CMakeFiles\rightquete.dir\src
 
@@ -1302,10 +1302,10 @@ build rightquete.exe: CXX_EXECUTABLE_LINKER__rightquete_Debug CMakeFiles/rightqu
 
 build cmake_object_order_depends_target_lambda: phony || CMakeFiles/lambda.dir
 
-build CMakeFiles/lambda.dir/src/lambda.cpp.obj: CXX_COMPILER__lambda_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/lambda.cpp || cmake_object_order_depends_target_lambda
+build CMakeFiles/lambda.dir/src/lambda.cpp.obj: CXX_COMPILER__lambda_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/lambda.cpp || cmake_object_order_depends_target_lambda
   DEP_FILE = CMakeFiles\lambda.dir\src\lambda.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\lambda.dir
   OBJECT_FILE_DIR = CMakeFiles\lambda.dir\src
 
@@ -1336,10 +1336,10 @@ build lambda.exe: CXX_EXECUTABLE_LINKER__lambda_Debug CMakeFiles/lambda.dir/src/
 
 build cmake_object_order_depends_target_factory: phony || CMakeFiles/factory.dir
 
-build CMakeFiles/factory.dir/DesignPattern/FactoryMethod/factorymethod.cpp.obj: CXX_COMPILER__factory_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/DesignPattern/FactoryMethod/factorymethod.cpp || cmake_object_order_depends_target_factory
+build CMakeFiles/factory.dir/DesignPattern/FactoryMethod/factorymethod.cpp.obj: CXX_COMPILER__factory_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/DesignPattern/FactoryMethod/factorymethod.cpp || cmake_object_order_depends_target_factory
   DEP_FILE = CMakeFiles\factory.dir\DesignPattern\FactoryMethod\factorymethod.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\factory.dir
   OBJECT_FILE_DIR = CMakeFiles\factory.dir\DesignPattern\FactoryMethod
 
@@ -1370,10 +1370,10 @@ build factory.exe: CXX_EXECUTABLE_LINKER__factory_Debug CMakeFiles/factory.dir/D
 
 build cmake_object_order_depends_target_abstractfactory: phony || CMakeFiles/abstractfactory.dir
 
-build CMakeFiles/abstractfactory.dir/DesignPattern/AbstractFactory/abstractfactory.cpp.obj: CXX_COMPILER__abstractfactory_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/DesignPattern/AbstractFactory/abstractfactory.cpp || cmake_object_order_depends_target_abstractfactory
+build CMakeFiles/abstractfactory.dir/DesignPattern/AbstractFactory/abstractfactory.cpp.obj: CXX_COMPILER__abstractfactory_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/DesignPattern/AbstractFactory/abstractfactory.cpp || cmake_object_order_depends_target_abstractfactory
   DEP_FILE = CMakeFiles\abstractfactory.dir\DesignPattern\AbstractFactory\abstractfactory.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\abstractfactory.dir
   OBJECT_FILE_DIR = CMakeFiles\abstractfactory.dir\DesignPattern\AbstractFactory
 
@@ -1404,10 +1404,10 @@ build abstractfactory.exe: CXX_EXECUTABLE_LINKER__abstractfactory_Debug CMakeFil
 
 build cmake_object_order_depends_target_my_heapsort: phony || CMakeFiles/my_heapsort.dir
 
-build CMakeFiles/my_heapsort.dir/mylib/my_heapsort.cpp.obj: CXX_COMPILER__my_heapsort_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/mylib/my_heapsort.cpp || cmake_object_order_depends_target_my_heapsort
+build CMakeFiles/my_heapsort.dir/mylib/my_heapsort.cpp.obj: CXX_COMPILER__my_heapsort_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/mylib/my_heapsort.cpp || cmake_object_order_depends_target_my_heapsort
   DEP_FILE = CMakeFiles\my_heapsort.dir\mylib\my_heapsort.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\my_heapsort.dir
   OBJECT_FILE_DIR = CMakeFiles\my_heapsort.dir\mylib
 
@@ -1438,10 +1438,10 @@ build my_heapsort.exe: CXX_EXECUTABLE_LINKER__my_heapsort_Debug CMakeFiles/my_he
 
 build cmake_object_order_depends_target_quicksort: phony || CMakeFiles/quicksort.dir
 
-build CMakeFiles/quicksort.dir/STL/Sort/quicksort.cpp.obj: CXX_COMPILER__quicksort_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/Sort/quicksort.cpp || cmake_object_order_depends_target_quicksort
+build CMakeFiles/quicksort.dir/STL/Sort/quicksort.cpp.obj: CXX_COMPILER__quicksort_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/Sort/quicksort.cpp || cmake_object_order_depends_target_quicksort
   DEP_FILE = CMakeFiles\quicksort.dir\STL\Sort\quicksort.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\quicksort.dir
   OBJECT_FILE_DIR = CMakeFiles\quicksort.dir\STL\Sort
 
@@ -1472,10 +1472,10 @@ build quicksort.exe: CXX_EXECUTABLE_LINKER__quicksort_Debug CMakeFiles/quicksort
 
 build cmake_object_order_depends_target_isLittleEndian: phony || CMakeFiles/isLittleEndian.dir
 
-build CMakeFiles/isLittleEndian.dir/Csapp/isLittleEndian.cpp.obj: CXX_COMPILER__isLittleEndian_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/Csapp/isLittleEndian.cpp || cmake_object_order_depends_target_isLittleEndian
+build CMakeFiles/isLittleEndian.dir/Csapp/isLittleEndian.cpp.obj: CXX_COMPILER__isLittleEndian_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/Csapp/isLittleEndian.cpp || cmake_object_order_depends_target_isLittleEndian
   DEP_FILE = CMakeFiles\isLittleEndian.dir\Csapp\isLittleEndian.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\isLittleEndian.dir
   OBJECT_FILE_DIR = CMakeFiles\isLittleEndian.dir\Csapp
 
@@ -1506,10 +1506,10 @@ build isLittleEndian.exe: CXX_EXECUTABLE_LINKER__isLittleEndian_Debug CMakeFiles
 
 build cmake_object_order_depends_target_virtual_func: phony || CMakeFiles/virtual_func.dir
 
-build CMakeFiles/virtual_func.dir/src/virtual_func.cpp.obj: CXX_COMPILER__virtual_func_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/virtual_func.cpp || cmake_object_order_depends_target_virtual_func
+build CMakeFiles/virtual_func.dir/src/virtual_func.cpp.obj: CXX_COMPILER__virtual_func_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/virtual_func.cpp || cmake_object_order_depends_target_virtual_func
   DEP_FILE = CMakeFiles\virtual_func.dir\src\virtual_func.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\virtual_func.dir
   OBJECT_FILE_DIR = CMakeFiles\virtual_func.dir\src
 
@@ -1540,10 +1540,10 @@ build virtual_func.exe: CXX_EXECUTABLE_LINKER__virtual_func_Debug CMakeFiles/vir
 
 build cmake_object_order_depends_target_func_point: phony || CMakeFiles/func_point.dir
 
-build CMakeFiles/func_point.dir/src/func_point.cpp.obj: CXX_COMPILER__func_point_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/func_point.cpp || cmake_object_order_depends_target_func_point
+build CMakeFiles/func_point.dir/src/func_point.cpp.obj: CXX_COMPILER__func_point_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/func_point.cpp || cmake_object_order_depends_target_func_point
   DEP_FILE = CMakeFiles\func_point.dir\src\func_point.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\func_point.dir
   OBJECT_FILE_DIR = CMakeFiles\func_point.dir\src
 
@@ -1574,10 +1574,10 @@ build func_point.exe: CXX_EXECUTABLE_LINKER__func_point_Debug CMakeFiles/func_po
 
 build cmake_object_order_depends_target_number_limits: phony || CMakeFiles/number_limits.dir
 
-build CMakeFiles/number_limits.dir/OJ/number_limits.cpp.obj: CXX_COMPILER__number_limits_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/OJ/number_limits.cpp || cmake_object_order_depends_target_number_limits
+build CMakeFiles/number_limits.dir/OJ/number_limits.cpp.obj: CXX_COMPILER__number_limits_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/OJ/number_limits.cpp || cmake_object_order_depends_target_number_limits
   DEP_FILE = CMakeFiles\number_limits.dir\OJ\number_limits.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\number_limits.dir
   OBJECT_FILE_DIR = CMakeFiles\number_limits.dir\OJ
 
@@ -1608,10 +1608,10 @@ build number_limits.exe: CXX_EXECUTABLE_LINKER__number_limits_Debug CMakeFiles/n
 
 build cmake_object_order_depends_target_string_input: phony || CMakeFiles/string_input.dir
 
-build CMakeFiles/string_input.dir/OJ/string_input.cpp.obj: CXX_COMPILER__string_input_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/OJ/string_input.cpp || cmake_object_order_depends_target_string_input
+build CMakeFiles/string_input.dir/OJ/string_input.cpp.obj: CXX_COMPILER__string_input_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/OJ/string_input.cpp || cmake_object_order_depends_target_string_input
   DEP_FILE = CMakeFiles\string_input.dir\OJ\string_input.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\string_input.dir
   OBJECT_FILE_DIR = CMakeFiles\string_input.dir\OJ
 
@@ -1642,10 +1642,10 @@ build string_input.exe: CXX_EXECUTABLE_LINKER__string_input_Debug CMakeFiles/str
 
 build cmake_object_order_depends_target_bag0_1: phony || CMakeFiles/bag0_1.dir
 
-build CMakeFiles/bag0_1.dir/Algorithm/bag0_1.cpp.obj: CXX_COMPILER__bag0_1_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/Algorithm/bag0_1.cpp || cmake_object_order_depends_target_bag0_1
+build CMakeFiles/bag0_1.dir/Algorithm/bag0_1.cpp.obj: CXX_COMPILER__bag0_1_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/Algorithm/bag0_1.cpp || cmake_object_order_depends_target_bag0_1
   DEP_FILE = CMakeFiles\bag0_1.dir\Algorithm\bag0_1.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\bag0_1.dir
   OBJECT_FILE_DIR = CMakeFiles\bag0_1.dir\Algorithm
 
@@ -1676,10 +1676,10 @@ build bag0_1.exe: CXX_EXECUTABLE_LINKER__bag0_1_Debug CMakeFiles/bag0_1.dir/Algo
 
 build cmake_object_order_depends_target_simplefactory1: phony || CMakeFiles/simplefactory1.dir
 
-build CMakeFiles/simplefactory1.dir/DesignPattern/SimpleFactory/simplefactory1.cpp.obj: CXX_COMPILER__simplefactory1_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/DesignPattern/SimpleFactory/simplefactory1.cpp || cmake_object_order_depends_target_simplefactory1
+build CMakeFiles/simplefactory1.dir/DesignPattern/SimpleFactory/simplefactory1.cpp.obj: CXX_COMPILER__simplefactory1_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/DesignPattern/SimpleFactory/simplefactory1.cpp || cmake_object_order_depends_target_simplefactory1
   DEP_FILE = CMakeFiles\simplefactory1.dir\DesignPattern\SimpleFactory\simplefactory1.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\simplefactory1.dir
   OBJECT_FILE_DIR = CMakeFiles\simplefactory1.dir\DesignPattern\SimpleFactory
 
@@ -1702,164 +1702,6 @@ build simplefactory1.exe: CXX_EXECUTABLE_LINKER__simplefactory1_Debug CMakeFiles
   TARGET_PDB = simplefactory1.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target yazi-json
-
-
-#############################################
-# Order-only phony target for yazi-json
-
-build cmake_object_order_depends_target_yazi-json: phony || CMakeFiles/yazi-json.dir
-
-build CMakeFiles/yazi-json.dir/yazi-json/yazi.cpp.obj: CXX_COMPILER__yazi-json_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/yazi-json/yazi.cpp || cmake_object_order_depends_target_yazi-json
-  DEP_FILE = CMakeFiles\yazi-json.dir\yazi-json\yazi.cpp.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
-  OBJECT_DIR = CMakeFiles\yazi-json.dir
-  OBJECT_FILE_DIR = CMakeFiles\yazi-json.dir\yazi-json
-
-build CMakeFiles/yazi-json.dir/yazi-json/json.cpp.obj: CXX_COMPILER__yazi-json_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/yazi-json/json.cpp || cmake_object_order_depends_target_yazi-json
-  DEP_FILE = CMakeFiles\yazi-json.dir\yazi-json\json.cpp.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
-  OBJECT_DIR = CMakeFiles\yazi-json.dir
-  OBJECT_FILE_DIR = CMakeFiles\yazi-json.dir\yazi-json
-
-build CMakeFiles/yazi-json.dir/yazi-json/paser.cpp.obj: CXX_COMPILER__yazi-json_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/yazi-json/paser.cpp || cmake_object_order_depends_target_yazi-json
-  DEP_FILE = CMakeFiles\yazi-json.dir\yazi-json\paser.cpp.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
-  OBJECT_DIR = CMakeFiles\yazi-json.dir
-  OBJECT_FILE_DIR = CMakeFiles\yazi-json.dir\yazi-json
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target yazi-json
-
-
-#############################################
-# Link the executable yazi-json.exe
-
-build yazi-json.exe: CXX_EXECUTABLE_LINKER__yazi-json_Debug CMakeFiles/yazi-json.dir/yazi-json/yazi.cpp.obj CMakeFiles/yazi-json.dir/yazi-json/json.cpp.obj CMakeFiles/yazi-json.dir/yazi-json/paser.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\yazi-json.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = yazi-json.exe
-  TARGET_IMPLIB = libyazi-json.dll.a
-  TARGET_PDB = yazi-json.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target jsoncpp
-
-
-#############################################
-# Order-only phony target for jsoncpp
-
-build cmake_object_order_depends_target_jsoncpp: phony || CMakeFiles/jsoncpp.dir
-
-build CMakeFiles/jsoncpp.dir/yazi-json/jsoncpp/jsoncpp.cpp.obj: CXX_COMPILER__jsoncpp_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/yazi-json/jsoncpp/jsoncpp.cpp || cmake_object_order_depends_target_jsoncpp
-  DEP_FILE = CMakeFiles\jsoncpp.dir\yazi-json\jsoncpp\jsoncpp.cpp.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
-  OBJECT_DIR = CMakeFiles\jsoncpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\jsoncpp.dir\yazi-json\jsoncpp
-
-build CMakeFiles/jsoncpp.dir/yazi-json/jsoncpp/lib/json_reader.cpp.obj: CXX_COMPILER__jsoncpp_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/yazi-json/jsoncpp/lib/json_reader.cpp || cmake_object_order_depends_target_jsoncpp
-  DEP_FILE = CMakeFiles\jsoncpp.dir\yazi-json\jsoncpp\lib\json_reader.cpp.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
-  OBJECT_DIR = CMakeFiles\jsoncpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\jsoncpp.dir\yazi-json\jsoncpp\lib
-
-build CMakeFiles/jsoncpp.dir/yazi-json/jsoncpp/lib/json_value.cpp.obj: CXX_COMPILER__jsoncpp_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/yazi-json/jsoncpp/lib/json_value.cpp || cmake_object_order_depends_target_jsoncpp
-  DEP_FILE = CMakeFiles\jsoncpp.dir\yazi-json\jsoncpp\lib\json_value.cpp.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
-  OBJECT_DIR = CMakeFiles\jsoncpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\jsoncpp.dir\yazi-json\jsoncpp\lib
-
-build CMakeFiles/jsoncpp.dir/yazi-json/jsoncpp/lib/json_writer.cpp.obj: CXX_COMPILER__jsoncpp_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/yazi-json/jsoncpp/lib/json_writer.cpp || cmake_object_order_depends_target_jsoncpp
-  DEP_FILE = CMakeFiles\jsoncpp.dir\yazi-json\jsoncpp\lib\json_writer.cpp.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
-  OBJECT_DIR = CMakeFiles\jsoncpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\jsoncpp.dir\yazi-json\jsoncpp\lib
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target jsoncpp
-
-
-#############################################
-# Link the executable jsoncpp.exe
-
-build jsoncpp.exe: CXX_EXECUTABLE_LINKER__jsoncpp_Debug CMakeFiles/jsoncpp.dir/yazi-json/jsoncpp/jsoncpp.cpp.obj CMakeFiles/jsoncpp.dir/yazi-json/jsoncpp/lib/json_reader.cpp.obj CMakeFiles/jsoncpp.dir/yazi-json/jsoncpp/lib/json_value.cpp.obj CMakeFiles/jsoncpp.dir/yazi-json/jsoncpp/lib/json_writer.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\jsoncpp.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = jsoncpp.exe
-  TARGET_IMPLIB = libjsoncpp.dll.a
-  TARGET_PDB = jsoncpp.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target cjson
-
-
-#############################################
-# Order-only phony target for cjson
-
-build cmake_object_order_depends_target_cjson: phony || CMakeFiles/cjson.dir
-
-build CMakeFiles/cjson.dir/yazi-json/cJSON/main.c.obj: C_COMPILER__cjson_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/yazi-json/cJSON/main.c || cmake_object_order_depends_target_cjson
-  DEP_FILE = CMakeFiles\cjson.dir\yazi-json\cJSON\main.c.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
-  OBJECT_DIR = CMakeFiles\cjson.dir
-  OBJECT_FILE_DIR = CMakeFiles\cjson.dir\yazi-json\cJSON
-
-build CMakeFiles/cjson.dir/yazi-json/cJSON/json_file.c.obj: C_COMPILER__cjson_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/yazi-json/cJSON/json_file.c || cmake_object_order_depends_target_cjson
-  DEP_FILE = CMakeFiles\cjson.dir\yazi-json\cJSON\json_file.c.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
-  OBJECT_DIR = CMakeFiles\cjson.dir
-  OBJECT_FILE_DIR = CMakeFiles\cjson.dir\yazi-json\cJSON
-
-build CMakeFiles/cjson.dir/yazi-json/cJSON/json_obj.c.obj: C_COMPILER__cjson_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/yazi-json/cJSON/json_obj.c || cmake_object_order_depends_target_cjson
-  DEP_FILE = CMakeFiles\cjson.dir\yazi-json\cJSON\json_obj.c.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
-  OBJECT_DIR = CMakeFiles\cjson.dir
-  OBJECT_FILE_DIR = CMakeFiles\cjson.dir\yazi-json\cJSON
-
-build CMakeFiles/cjson.dir/yazi-json/cJSON/lib/cJSON.c.obj: C_COMPILER__cjson_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/yazi-json/cJSON/lib/cJSON.c || cmake_object_order_depends_target_cjson
-  DEP_FILE = CMakeFiles\cjson.dir\yazi-json\cJSON\lib\cJSON.c.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
-  OBJECT_DIR = CMakeFiles\cjson.dir
-  OBJECT_FILE_DIR = CMakeFiles\cjson.dir\yazi-json\cJSON\lib
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target cjson
-
-
-#############################################
-# Link the executable cjson.exe
-
-build cjson.exe: C_EXECUTABLE_LINKER__cjson_Debug CMakeFiles/cjson.dir/yazi-json/cJSON/main.c.obj CMakeFiles/cjson.dir/yazi-json/cJSON/json_file.c.obj CMakeFiles/cjson.dir/yazi-json/cJSON/json_obj.c.obj CMakeFiles/cjson.dir/yazi-json/cJSON/lib/cJSON.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\cjson.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = cjson.exe
-  TARGET_IMPLIB = libcjson.dll.a
-  TARGET_PDB = cjson.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target mystl_string
 
 
@@ -1868,10 +1710,10 @@ build cjson.exe: C_EXECUTABLE_LINKER__cjson_Debug CMakeFiles/cjson.dir/yazi-json
 
 build cmake_object_order_depends_target_mystl_string: phony || CMakeFiles/mystl_string.dir
 
-build CMakeFiles/mystl_string.dir/STL/mystl_string.cpp.obj: CXX_COMPILER__mystl_string_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/mystl_string.cpp || cmake_object_order_depends_target_mystl_string
+build CMakeFiles/mystl_string.dir/STL/mystl_string.cpp.obj: CXX_COMPILER__mystl_string_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/mystl_string.cpp || cmake_object_order_depends_target_mystl_string
   DEP_FILE = CMakeFiles\mystl_string.dir\STL\mystl_string.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\mystl_string.dir
   OBJECT_FILE_DIR = CMakeFiles\mystl_string.dir\STL
 
@@ -1902,10 +1744,10 @@ build mystl_string.exe: CXX_EXECUTABLE_LINKER__mystl_string_Debug CMakeFiles/mys
 
 build cmake_object_order_depends_target_my_string: phony || CMakeFiles/my_string.dir
 
-build CMakeFiles/my_string.dir/STL/String/my_string.cpp.obj: CXX_COMPILER__my_string_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/String/my_string.cpp || cmake_object_order_depends_target_my_string
+build CMakeFiles/my_string.dir/STL/String/my_string.cpp.obj: CXX_COMPILER__my_string_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/String/my_string.cpp || cmake_object_order_depends_target_my_string
   DEP_FILE = CMakeFiles\my_string.dir\STL\String\my_string.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\my_string.dir
   OBJECT_FILE_DIR = CMakeFiles\my_string.dir\STL\String
 
@@ -1936,10 +1778,10 @@ build my_string.exe: CXX_EXECUTABLE_LINKER__my_string_Debug CMakeFiles/my_string
 
 build cmake_object_order_depends_target_pionter: phony || CMakeFiles/pionter.dir
 
-build CMakeFiles/pionter.dir/src/pionter.cpp.obj: CXX_COMPILER__pionter_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/pionter.cpp || cmake_object_order_depends_target_pionter
+build CMakeFiles/pionter.dir/src/pionter.cpp.obj: CXX_COMPILER__pionter_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/pionter.cpp || cmake_object_order_depends_target_pionter
   DEP_FILE = CMakeFiles\pionter.dir\src\pionter.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\pionter.dir
   OBJECT_FILE_DIR = CMakeFiles\pionter.dir\src
 
@@ -1970,10 +1812,10 @@ build pionter.exe: CXX_EXECUTABLE_LINKER__pionter_Debug CMakeFiles/pionter.dir/s
 
 build cmake_object_order_depends_target_productor_consumer: phony || CMakeFiles/productor_consumer.dir
 
-build CMakeFiles/productor_consumer.dir/STL/Concurrency/Mutex/productor_consumer.cpp.obj: CXX_COMPILER__productor_consumer_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/Concurrency/Mutex/productor_consumer.cpp || cmake_object_order_depends_target_productor_consumer
+build CMakeFiles/productor_consumer.dir/STL/Concurrency/Mutex/productor_consumer.cpp.obj: CXX_COMPILER__productor_consumer_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/Concurrency/Mutex/productor_consumer.cpp || cmake_object_order_depends_target_productor_consumer
   DEP_FILE = CMakeFiles\productor_consumer.dir\STL\Concurrency\Mutex\productor_consumer.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\productor_consumer.dir
   OBJECT_FILE_DIR = CMakeFiles\productor_consumer.dir\STL\Concurrency\Mutex
 
@@ -2004,10 +1846,10 @@ build productor_consumer.exe: CXX_EXECUTABLE_LINKER__productor_consumer_Debug CM
 
 build cmake_object_order_depends_target_perfect_define: phony || CMakeFiles/perfect_define.dir
 
-build CMakeFiles/perfect_define.dir/src/perfect_define.cpp.obj: CXX_COMPILER__perfect_define_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/perfect_define.cpp || cmake_object_order_depends_target_perfect_define
+build CMakeFiles/perfect_define.dir/src/perfect_define.cpp.obj: CXX_COMPILER__perfect_define_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/perfect_define.cpp || cmake_object_order_depends_target_perfect_define
   DEP_FILE = CMakeFiles\perfect_define.dir\src\perfect_define.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\perfect_define.dir
   OBJECT_FILE_DIR = CMakeFiles\perfect_define.dir\src
 
@@ -2038,10 +1880,10 @@ build perfect_define.exe: CXX_EXECUTABLE_LINKER__perfect_define_Debug CMakeFiles
 
 build cmake_object_order_depends_target_param_passing: phony || CMakeFiles/param_passing.dir
 
-build CMakeFiles/param_passing.dir/src/param_passing.cpp.obj: CXX_COMPILER__param_passing_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/param_passing.cpp || cmake_object_order_depends_target_param_passing
+build CMakeFiles/param_passing.dir/src/param_passing.cpp.obj: CXX_COMPILER__param_passing_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/param_passing.cpp || cmake_object_order_depends_target_param_passing
   DEP_FILE = CMakeFiles\param_passing.dir\src\param_passing.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\param_passing.dir
   OBJECT_FILE_DIR = CMakeFiles\param_passing.dir\src
 
@@ -2072,10 +1914,10 @@ build param_passing.exe: CXX_EXECUTABLE_LINKER__param_passing_Debug CMakeFiles/p
 
 build cmake_object_order_depends_target_copy_move_constructor: phony || CMakeFiles/copy_move_constructor.dir
 
-build CMakeFiles/copy_move_constructor.dir/src/move_constructor.cpp.obj: CXX_COMPILER__copy_move_constructor_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/move_constructor.cpp || cmake_object_order_depends_target_copy_move_constructor
+build CMakeFiles/copy_move_constructor.dir/src/move_constructor.cpp.obj: CXX_COMPILER__copy_move_constructor_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/move_constructor.cpp || cmake_object_order_depends_target_copy_move_constructor
   DEP_FILE = CMakeFiles\copy_move_constructor.dir\src\move_constructor.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\copy_move_constructor.dir
   OBJECT_FILE_DIR = CMakeFiles\copy_move_constructor.dir\src
 
@@ -2106,10 +1948,10 @@ build copy_move_constructor.exe: CXX_EXECUTABLE_LINKER__copy_move_constructor_De
 
 build cmake_object_order_depends_target_copy_constuctor: phony || CMakeFiles/copy_constuctor.dir
 
-build CMakeFiles/copy_constuctor.dir/src/copy_constuctor.cpp.obj: CXX_COMPILER__copy_constuctor_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/copy_constuctor.cpp || cmake_object_order_depends_target_copy_constuctor
+build CMakeFiles/copy_constuctor.dir/src/copy_constuctor.cpp.obj: CXX_COMPILER__copy_constuctor_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/copy_constuctor.cpp || cmake_object_order_depends_target_copy_constuctor
   DEP_FILE = CMakeFiles\copy_constuctor.dir\src\copy_constuctor.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\copy_constuctor.dir
   OBJECT_FILE_DIR = CMakeFiles\copy_constuctor.dir\src
 
@@ -2140,10 +1982,10 @@ build copy_constuctor.exe: CXX_EXECUTABLE_LINKER__copy_constuctor_Debug CMakeFil
 
 build cmake_object_order_depends_target_smart_ptr: phony || CMakeFiles/smart_ptr.dir
 
-build CMakeFiles/smart_ptr.dir/src/smart_ptr.cpp.obj: CXX_COMPILER__smart_ptr_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/smart_ptr.cpp || cmake_object_order_depends_target_smart_ptr
+build CMakeFiles/smart_ptr.dir/src/smart_ptr.cpp.obj: CXX_COMPILER__smart_ptr_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/smart_ptr.cpp || cmake_object_order_depends_target_smart_ptr
   DEP_FILE = CMakeFiles\smart_ptr.dir\src\smart_ptr.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\smart_ptr.dir
   OBJECT_FILE_DIR = CMakeFiles\smart_ptr.dir\src
 
@@ -2174,10 +2016,10 @@ build smart_ptr.exe: CXX_EXECUTABLE_LINKER__smart_ptr_Debug CMakeFiles/smart_ptr
 
 build cmake_object_order_depends_target_ref_count: phony || CMakeFiles/ref_count.dir
 
-build CMakeFiles/ref_count.dir/src/ref_count.cpp.obj: CXX_COMPILER__ref_count_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/ref_count.cpp || cmake_object_order_depends_target_ref_count
+build CMakeFiles/ref_count.dir/src/ref_count.cpp.obj: CXX_COMPILER__ref_count_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/ref_count.cpp || cmake_object_order_depends_target_ref_count
   DEP_FILE = CMakeFiles\ref_count.dir\src\ref_count.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\ref_count.dir
   OBJECT_FILE_DIR = CMakeFiles\ref_count.dir\src
 
@@ -2208,10 +2050,10 @@ build ref_count.exe: CXX_EXECUTABLE_LINKER__ref_count_Debug CMakeFiles/ref_count
 
 build cmake_object_order_depends_target_weak_ptr: phony || CMakeFiles/weak_ptr.dir
 
-build CMakeFiles/weak_ptr.dir/src/weak_ptr.cpp.obj: CXX_COMPILER__weak_ptr_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/weak_ptr.cpp || cmake_object_order_depends_target_weak_ptr
+build CMakeFiles/weak_ptr.dir/src/weak_ptr.cpp.obj: CXX_COMPILER__weak_ptr_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/weak_ptr.cpp || cmake_object_order_depends_target_weak_ptr
   DEP_FILE = CMakeFiles\weak_ptr.dir\src\weak_ptr.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\weak_ptr.dir
   OBJECT_FILE_DIR = CMakeFiles\weak_ptr.dir\src
 
@@ -2242,10 +2084,10 @@ build weak_ptr.exe: CXX_EXECUTABLE_LINKER__weak_ptr_Debug CMakeFiles/weak_ptr.di
 
 build cmake_object_order_depends_target_thread_pool: phony || CMakeFiles/thread_pool.dir
 
-build CMakeFiles/thread_pool.dir/ThreadPool/thread_pool.cpp.obj: CXX_COMPILER__thread_pool_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/ThreadPool/thread_pool.cpp || cmake_object_order_depends_target_thread_pool
+build CMakeFiles/thread_pool.dir/ThreadPool/thread_pool.cpp.obj: CXX_COMPILER__thread_pool_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/ThreadPool/thread_pool.cpp || cmake_object_order_depends_target_thread_pool
   DEP_FILE = CMakeFiles\thread_pool.dir\ThreadPool\thread_pool.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\thread_pool.dir
   OBJECT_FILE_DIR = CMakeFiles\thread_pool.dir\ThreadPool
 
@@ -2276,10 +2118,10 @@ build thread_pool.exe: CXX_EXECUTABLE_LINKER__thread_pool_Debug CMakeFiles/threa
 
 build cmake_object_order_depends_target_mempool_c: phony || CMakeFiles/mempool_c.dir
 
-build CMakeFiles/mempool_c.dir/MemoryPool/mempool_c.cpp.obj: CXX_COMPILER__mempool_c_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/MemoryPool/mempool_c.cpp || cmake_object_order_depends_target_mempool_c
+build CMakeFiles/mempool_c.dir/MemoryPool/mempool_c.cpp.obj: CXX_COMPILER__mempool_c_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/MemoryPool/mempool_c.cpp || cmake_object_order_depends_target_mempool_c
   DEP_FILE = CMakeFiles\mempool_c.dir\MemoryPool\mempool_c.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\mempool_c.dir
   OBJECT_FILE_DIR = CMakeFiles\mempool_c.dir\MemoryPool
 
@@ -2310,10 +2152,10 @@ build mempool_c.exe: CXX_EXECUTABLE_LINKER__mempool_c_Debug CMakeFiles/mempool_c
 
 build cmake_object_order_depends_target_inheritance: phony || CMakeFiles/inheritance.dir
 
-build CMakeFiles/inheritance.dir/src/inheritance.cpp.obj: CXX_COMPILER__inheritance_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/src/inheritance.cpp || cmake_object_order_depends_target_inheritance
+build CMakeFiles/inheritance.dir/src/inheritance.cpp.obj: CXX_COMPILER__inheritance_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/inheritance.cpp || cmake_object_order_depends_target_inheritance
   DEP_FILE = CMakeFiles\inheritance.dir\src\inheritance.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\inheritance.dir
   OBJECT_FILE_DIR = CMakeFiles\inheritance.dir\src
 
@@ -2344,10 +2186,10 @@ build inheritance.exe: CXX_EXECUTABLE_LINKER__inheritance_Debug CMakeFiles/inher
 
 build cmake_object_order_depends_target_myAlgorithm: phony || CMakeFiles/myAlgorithm.dir
 
-build CMakeFiles/myAlgorithm.dir/myAlgorithm/myAlgorithm.cpp.obj: CXX_COMPILER__myAlgorithm_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/myAlgorithm/myAlgorithm.cpp || cmake_object_order_depends_target_myAlgorithm
+build CMakeFiles/myAlgorithm.dir/myAlgorithm/myAlgorithm.cpp.obj: CXX_COMPILER__myAlgorithm_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/myAlgorithm.cpp || cmake_object_order_depends_target_myAlgorithm
   DEP_FILE = CMakeFiles\myAlgorithm.dir\myAlgorithm\myAlgorithm.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\myAlgorithm.dir
   OBJECT_FILE_DIR = CMakeFiles\myAlgorithm.dir\myAlgorithm
 
@@ -2378,10 +2220,10 @@ build myAlgorithm.exe: CXX_EXECUTABLE_LINKER__myAlgorithm_Debug CMakeFiles/myAlg
 
 build cmake_object_order_depends_target_dfs: phony || CMakeFiles/dfs.dir
 
-build CMakeFiles/dfs.dir/Algorithm/dfs.cpp.obj: CXX_COMPILER__dfs_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/Algorithm/dfs.cpp || cmake_object_order_depends_target_dfs
+build CMakeFiles/dfs.dir/Algorithm/dfs.cpp.obj: CXX_COMPILER__dfs_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/Algorithm/dfs.cpp || cmake_object_order_depends_target_dfs
   DEP_FILE = CMakeFiles\dfs.dir\Algorithm\dfs.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\dfs.dir
   OBJECT_FILE_DIR = CMakeFiles\dfs.dir\Algorithm
 
@@ -2412,10 +2254,10 @@ build dfs.exe: CXX_EXECUTABLE_LINKER__dfs_Debug CMakeFiles/dfs.dir/Algorithm/dfs
 
 build cmake_object_order_depends_target_onlinetest: phony || CMakeFiles/onlinetest.dir
 
-build CMakeFiles/onlinetest.dir/myAlgorithm/onlinetest.cpp.obj: CXX_COMPILER__onlinetest_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/myAlgorithm/onlinetest.cpp || cmake_object_order_depends_target_onlinetest
+build CMakeFiles/onlinetest.dir/myAlgorithm/onlinetest.cpp.obj: CXX_COMPILER__onlinetest_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/onlinetest.cpp || cmake_object_order_depends_target_onlinetest
   DEP_FILE = CMakeFiles\onlinetest.dir\myAlgorithm\onlinetest.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\onlinetest.dir
   OBJECT_FILE_DIR = CMakeFiles\onlinetest.dir\myAlgorithm
 
@@ -2446,10 +2288,10 @@ build onlinetest.exe: CXX_EXECUTABLE_LINKER__onlinetest_Debug CMakeFiles/onlinet
 
 build cmake_object_order_depends_target_o1: phony || CMakeFiles/o1.dir
 
-build CMakeFiles/o1.dir/myAlgorithm/o1.cpp.obj: CXX_COMPILER__o1_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/myAlgorithm/o1.cpp || cmake_object_order_depends_target_o1
+build CMakeFiles/o1.dir/myAlgorithm/o1.cpp.obj: CXX_COMPILER__o1_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o1.cpp || cmake_object_order_depends_target_o1
   DEP_FILE = CMakeFiles\o1.dir\myAlgorithm\o1.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\o1.dir
   OBJECT_FILE_DIR = CMakeFiles\o1.dir\myAlgorithm
 
@@ -2480,10 +2322,10 @@ build o1.exe: CXX_EXECUTABLE_LINKER__o1_Debug CMakeFiles/o1.dir/myAlgorithm/o1.c
 
 build cmake_object_order_depends_target_o2: phony || CMakeFiles/o2.dir
 
-build CMakeFiles/o2.dir/myAlgorithm/o2.cpp.obj: CXX_COMPILER__o2_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/myAlgorithm/o2.cpp || cmake_object_order_depends_target_o2
+build CMakeFiles/o2.dir/myAlgorithm/o2.cpp.obj: CXX_COMPILER__o2_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o2.cpp || cmake_object_order_depends_target_o2
   DEP_FILE = CMakeFiles\o2.dir\myAlgorithm\o2.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\o2.dir
   OBJECT_FILE_DIR = CMakeFiles\o2.dir\myAlgorithm
 
@@ -2514,10 +2356,10 @@ build o2.exe: CXX_EXECUTABLE_LINKER__o2_Debug CMakeFiles/o2.dir/myAlgorithm/o2.c
 
 build cmake_object_order_depends_target_o3: phony || CMakeFiles/o3.dir
 
-build CMakeFiles/o3.dir/myAlgorithm/o3.cpp.obj: CXX_COMPILER__o3_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/myAlgorithm/o3.cpp || cmake_object_order_depends_target_o3
+build CMakeFiles/o3.dir/myAlgorithm/o3.cpp.obj: CXX_COMPILER__o3_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o3.cpp || cmake_object_order_depends_target_o3
   DEP_FILE = CMakeFiles\o3.dir\myAlgorithm\o3.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\o3.dir
   OBJECT_FILE_DIR = CMakeFiles\o3.dir\myAlgorithm
 
@@ -2548,10 +2390,10 @@ build o3.exe: CXX_EXECUTABLE_LINKER__o3_Debug CMakeFiles/o3.dir/myAlgorithm/o3.c
 
 build cmake_object_order_depends_target_o4: phony || CMakeFiles/o4.dir
 
-build CMakeFiles/o4.dir/myAlgorithm/o4.cpp.obj: CXX_COMPILER__o4_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/myAlgorithm/o4.cpp || cmake_object_order_depends_target_o4
+build CMakeFiles/o4.dir/myAlgorithm/o4.cpp.obj: CXX_COMPILER__o4_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o4.cpp || cmake_object_order_depends_target_o4
   DEP_FILE = CMakeFiles\o4.dir\myAlgorithm\o4.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\o4.dir
   OBJECT_FILE_DIR = CMakeFiles\o4.dir\myAlgorithm
 
@@ -2582,10 +2424,10 @@ build o4.exe: CXX_EXECUTABLE_LINKER__o4_Debug CMakeFiles/o4.dir/myAlgorithm/o4.c
 
 build cmake_object_order_depends_target_o5: phony || CMakeFiles/o5.dir
 
-build CMakeFiles/o5.dir/myAlgorithm/o5.cpp.obj: CXX_COMPILER__o5_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/myAlgorithm/o5.cpp || cmake_object_order_depends_target_o5
+build CMakeFiles/o5.dir/myAlgorithm/o5.cpp.obj: CXX_COMPILER__o5_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o5.cpp || cmake_object_order_depends_target_o5
   DEP_FILE = CMakeFiles\o5.dir\myAlgorithm\o5.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\o5.dir
   OBJECT_FILE_DIR = CMakeFiles\o5.dir\myAlgorithm
 
@@ -2616,10 +2458,10 @@ build o5.exe: CXX_EXECUTABLE_LINKER__o5_Debug CMakeFiles/o5.dir/myAlgorithm/o5.c
 
 build cmake_object_order_depends_target_o6: phony || CMakeFiles/o6.dir
 
-build CMakeFiles/o6.dir/myAlgorithm/o6.cpp.obj: CXX_COMPILER__o6_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/myAlgorithm/o6.cpp || cmake_object_order_depends_target_o6
+build CMakeFiles/o6.dir/myAlgorithm/o6.cpp.obj: CXX_COMPILER__o6_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o6.cpp || cmake_object_order_depends_target_o6
   DEP_FILE = CMakeFiles\o6.dir\myAlgorithm\o6.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\o6.dir
   OBJECT_FILE_DIR = CMakeFiles\o6.dir\myAlgorithm
 
@@ -2650,10 +2492,10 @@ build o6.exe: CXX_EXECUTABLE_LINKER__o6_Debug CMakeFiles/o6.dir/myAlgorithm/o6.c
 
 build cmake_object_order_depends_target_o7: phony || CMakeFiles/o7.dir
 
-build CMakeFiles/o7.dir/myAlgorithm/o7.cpp.obj: CXX_COMPILER__o7_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/myAlgorithm/o7.cpp || cmake_object_order_depends_target_o7
+build CMakeFiles/o7.dir/myAlgorithm/o7.cpp.obj: CXX_COMPILER__o7_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o7.cpp || cmake_object_order_depends_target_o7
   DEP_FILE = CMakeFiles\o7.dir\myAlgorithm\o7.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\o7.dir
   OBJECT_FILE_DIR = CMakeFiles\o7.dir\myAlgorithm
 
@@ -2684,10 +2526,10 @@ build o7.exe: CXX_EXECUTABLE_LINKER__o7_Debug CMakeFiles/o7.dir/myAlgorithm/o7.c
 
 build cmake_object_order_depends_target_o8: phony || CMakeFiles/o8.dir
 
-build CMakeFiles/o8.dir/myAlgorithm/o8.cpp.obj: CXX_COMPILER__o8_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/myAlgorithm/o8.cpp || cmake_object_order_depends_target_o8
+build CMakeFiles/o8.dir/myAlgorithm/o8.cpp.obj: CXX_COMPILER__o8_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o8.cpp || cmake_object_order_depends_target_o8
   DEP_FILE = CMakeFiles\o8.dir\myAlgorithm\o8.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\o8.dir
   OBJECT_FILE_DIR = CMakeFiles\o8.dir\myAlgorithm
 
@@ -2718,10 +2560,10 @@ build o8.exe: CXX_EXECUTABLE_LINKER__o8_Debug CMakeFiles/o8.dir/myAlgorithm/o8.c
 
 build cmake_object_order_depends_target_mymultimap: phony || CMakeFiles/mymultimap.dir
 
-build CMakeFiles/mymultimap.dir/STL/mymultimap.cpp.obj: CXX_COMPILER__mymultimap_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/STL/mymultimap.cpp || cmake_object_order_depends_target_mymultimap
+build CMakeFiles/mymultimap.dir/STL/mymultimap.cpp.obj: CXX_COMPILER__mymultimap_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/mymultimap.cpp || cmake_object_order_depends_target_mymultimap
   DEP_FILE = CMakeFiles\mymultimap.dir\STL\mymultimap.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
   OBJECT_DIR = CMakeFiles\mymultimap.dir
   OBJECT_FILE_DIR = CMakeFiles\mymultimap.dir\STL
 
@@ -2743,12 +2585,624 @@ build mymultimap.exe: CXX_EXECUTABLE_LINKER__mymultimap_Debug CMakeFiles/mymulti
   TARGET_IMPLIB = libmymultimap.dll.a
   TARGET_PDB = mymultimap.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target move_copy
+
+
+#############################################
+# Order-only phony target for move_copy
+
+build cmake_object_order_depends_target_move_copy: phony || CMakeFiles/move_copy.dir
+
+build CMakeFiles/move_copy.dir/src/move_copy.cpp.obj: CXX_COMPILER__move_copy_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/move_copy.cpp || cmake_object_order_depends_target_move_copy
+  DEP_FILE = CMakeFiles\move_copy.dir\src\move_copy.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\move_copy.dir
+  OBJECT_FILE_DIR = CMakeFiles\move_copy.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target move_copy
+
+
+#############################################
+# Link the executable move_copy.exe
+
+build move_copy.exe: CXX_EXECUTABLE_LINKER__move_copy_Debug CMakeFiles/move_copy.dir/src/move_copy.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\move_copy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = move_copy.exe
+  TARGET_IMPLIB = libmove_copy.dll.a
+  TARGET_PDB = move_copy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target my_share_ptr
+
+
+#############################################
+# Order-only phony target for my_share_ptr
+
+build cmake_object_order_depends_target_my_share_ptr: phony || CMakeFiles/my_share_ptr.dir
+
+build CMakeFiles/my_share_ptr.dir/STL/my_share_ptr.cpp.obj: CXX_COMPILER__my_share_ptr_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/my_share_ptr.cpp || cmake_object_order_depends_target_my_share_ptr
+  DEP_FILE = CMakeFiles\my_share_ptr.dir\STL\my_share_ptr.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\my_share_ptr.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_share_ptr.dir\STL
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_share_ptr
+
+
+#############################################
+# Link the executable my_share_ptr.exe
+
+build my_share_ptr.exe: CXX_EXECUTABLE_LINKER__my_share_ptr_Debug CMakeFiles/my_share_ptr.dir/STL/my_share_ptr.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\my_share_ptr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = my_share_ptr.exe
+  TARGET_IMPLIB = libmy_share_ptr.dll.a
+  TARGET_PDB = my_share_ptr.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target my_shared_ptr
+
+
+#############################################
+# Order-only phony target for my_shared_ptr
+
+build cmake_object_order_depends_target_my_shared_ptr: phony || CMakeFiles/my_shared_ptr.dir
+
+build CMakeFiles/my_shared_ptr.dir/STL/my_shared_ptr.cpp.obj: CXX_COMPILER__my_shared_ptr_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/my_shared_ptr.cpp || cmake_object_order_depends_target_my_shared_ptr
+  DEP_FILE = CMakeFiles\my_shared_ptr.dir\STL\my_shared_ptr.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\my_shared_ptr.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_shared_ptr.dir\STL
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_shared_ptr
+
+
+#############################################
+# Link the executable my_shared_ptr.exe
+
+build my_shared_ptr.exe: CXX_EXECUTABLE_LINKER__my_shared_ptr_Debug CMakeFiles/my_shared_ptr.dir/STL/my_shared_ptr.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\my_shared_ptr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = my_shared_ptr.exe
+  TARGET_IMPLIB = libmy_shared_ptr.dll.a
+  TARGET_PDB = my_shared_ptr.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target o9
+
+
+#############################################
+# Order-only phony target for o9
+
+build cmake_object_order_depends_target_o9: phony || CMakeFiles/o9.dir
+
+build CMakeFiles/o9.dir/myAlgorithm/o9.cpp.obj: CXX_COMPILER__o9_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o9.cpp || cmake_object_order_depends_target_o9
+  DEP_FILE = CMakeFiles\o9.dir\myAlgorithm\o9.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\o9.dir
+  OBJECT_FILE_DIR = CMakeFiles\o9.dir\myAlgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target o9
+
+
+#############################################
+# Link the executable o9.exe
+
+build o9.exe: CXX_EXECUTABLE_LINKER__o9_Debug CMakeFiles/o9.dir/myAlgorithm/o9.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\o9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = o9.exe
+  TARGET_IMPLIB = libo9.dll.a
+  TARGET_PDB = o9.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target o10
+
+
+#############################################
+# Order-only phony target for o10
+
+build cmake_object_order_depends_target_o10: phony || CMakeFiles/o10.dir
+
+build CMakeFiles/o10.dir/myAlgorithm/o10.cpp.obj: CXX_COMPILER__o10_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o10.cpp || cmake_object_order_depends_target_o10
+  DEP_FILE = CMakeFiles\o10.dir\myAlgorithm\o10.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\o10.dir
+  OBJECT_FILE_DIR = CMakeFiles\o10.dir\myAlgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target o10
+
+
+#############################################
+# Link the executable o10.exe
+
+build o10.exe: CXX_EXECUTABLE_LINKER__o10_Debug CMakeFiles/o10.dir/myAlgorithm/o10.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\o10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = o10.exe
+  TARGET_IMPLIB = libo10.dll.a
+  TARGET_PDB = o10.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target o11
+
+
+#############################################
+# Order-only phony target for o11
+
+build cmake_object_order_depends_target_o11: phony || CMakeFiles/o11.dir
+
+build CMakeFiles/o11.dir/myAlgorithm/o11.cpp.obj: CXX_COMPILER__o11_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o11.cpp || cmake_object_order_depends_target_o11
+  DEP_FILE = CMakeFiles\o11.dir\myAlgorithm\o11.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\o11.dir
+  OBJECT_FILE_DIR = CMakeFiles\o11.dir\myAlgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target o11
+
+
+#############################################
+# Link the executable o11.exe
+
+build o11.exe: CXX_EXECUTABLE_LINKER__o11_Debug CMakeFiles/o11.dir/myAlgorithm/o11.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\o11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = o11.exe
+  TARGET_IMPLIB = libo11.dll.a
+  TARGET_PDB = o11.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target mystl_vector
+
+
+#############################################
+# Order-only phony target for mystl_vector
+
+build cmake_object_order_depends_target_mystl_vector: phony || CMakeFiles/mystl_vector.dir
+
+build CMakeFiles/mystl_vector.dir/STL/mystl_vector.cpp.obj: CXX_COMPILER__mystl_vector_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/mystl_vector.cpp || cmake_object_order_depends_target_mystl_vector
+  DEP_FILE = CMakeFiles\mystl_vector.dir\STL\mystl_vector.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\mystl_vector.dir
+  OBJECT_FILE_DIR = CMakeFiles\mystl_vector.dir\STL
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mystl_vector
+
+
+#############################################
+# Link the executable mystl_vector.exe
+
+build mystl_vector.exe: CXX_EXECUTABLE_LINKER__mystl_vector_Debug CMakeFiles/mystl_vector.dir/STL/mystl_vector.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\mystl_vector.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = mystl_vector.exe
+  TARGET_IMPLIB = libmystl_vector.dll.a
+  TARGET_PDB = mystl_vector.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target emplaceVSpush
+
+
+#############################################
+# Order-only phony target for emplaceVSpush
+
+build cmake_object_order_depends_target_emplaceVSpush: phony || CMakeFiles/emplaceVSpush.dir
+
+build CMakeFiles/emplaceVSpush.dir/STL/emplaceVSpush.cpp.obj: CXX_COMPILER__emplaceVSpush_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/STL/emplaceVSpush.cpp || cmake_object_order_depends_target_emplaceVSpush
+  DEP_FILE = CMakeFiles\emplaceVSpush.dir\STL\emplaceVSpush.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\emplaceVSpush.dir
+  OBJECT_FILE_DIR = CMakeFiles\emplaceVSpush.dir\STL
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target emplaceVSpush
+
+
+#############################################
+# Link the executable emplaceVSpush.exe
+
+build emplaceVSpush.exe: CXX_EXECUTABLE_LINKER__emplaceVSpush_Debug CMakeFiles/emplaceVSpush.dir/STL/emplaceVSpush.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\emplaceVSpush.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = emplaceVSpush.exe
+  TARGET_IMPLIB = libemplaceVSpush.dll.a
+  TARGET_PDB = emplaceVSpush.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target o12
+
+
+#############################################
+# Order-only phony target for o12
+
+build cmake_object_order_depends_target_o12: phony || CMakeFiles/o12.dir
+
+build CMakeFiles/o12.dir/myAlgorithm/o12.cpp.obj: CXX_COMPILER__o12_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o12.cpp || cmake_object_order_depends_target_o12
+  DEP_FILE = CMakeFiles\o12.dir\myAlgorithm\o12.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\o12.dir
+  OBJECT_FILE_DIR = CMakeFiles\o12.dir\myAlgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target o12
+
+
+#############################################
+# Link the executable o12.exe
+
+build o12.exe: CXX_EXECUTABLE_LINKER__o12_Debug CMakeFiles/o12.dir/myAlgorithm/o12.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\o12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = o12.exe
+  TARGET_IMPLIB = libo12.dll.a
+  TARGET_PDB = o12.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target o13
+
+
+#############################################
+# Order-only phony target for o13
+
+build cmake_object_order_depends_target_o13: phony || CMakeFiles/o13.dir
+
+build CMakeFiles/o13.dir/myAlgorithm/o13.cpp.obj: CXX_COMPILER__o13_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o13.cpp || cmake_object_order_depends_target_o13
+  DEP_FILE = CMakeFiles\o13.dir\myAlgorithm\o13.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\o13.dir
+  OBJECT_FILE_DIR = CMakeFiles\o13.dir\myAlgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target o13
+
+
+#############################################
+# Link the executable o13.exe
+
+build o13.exe: CXX_EXECUTABLE_LINKER__o13_Debug CMakeFiles/o13.dir/myAlgorithm/o13.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\o13.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = o13.exe
+  TARGET_IMPLIB = libo13.dll.a
+  TARGET_PDB = o13.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target o14
+
+
+#############################################
+# Order-only phony target for o14
+
+build cmake_object_order_depends_target_o14: phony || CMakeFiles/o14.dir
+
+build CMakeFiles/o14.dir/myAlgorithm/o14.cpp.obj: CXX_COMPILER__o14_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o14.cpp || cmake_object_order_depends_target_o14
+  DEP_FILE = CMakeFiles\o14.dir\myAlgorithm\o14.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\o14.dir
+  OBJECT_FILE_DIR = CMakeFiles\o14.dir\myAlgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target o14
+
+
+#############################################
+# Link the executable o14.exe
+
+build o14.exe: CXX_EXECUTABLE_LINKER__o14_Debug CMakeFiles/o14.dir/myAlgorithm/o14.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\o14.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = o14.exe
+  TARGET_IMPLIB = libo14.dll.a
+  TARGET_PDB = o14.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target o15
+
+
+#############################################
+# Order-only phony target for o15
+
+build cmake_object_order_depends_target_o15: phony || CMakeFiles/o15.dir
+
+build CMakeFiles/o15.dir/myAlgorithm/o15.cpp.obj: CXX_COMPILER__o15_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o15.cpp || cmake_object_order_depends_target_o15
+  DEP_FILE = CMakeFiles\o15.dir\myAlgorithm\o15.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\o15.dir
+  OBJECT_FILE_DIR = CMakeFiles\o15.dir\myAlgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target o15
+
+
+#############################################
+# Link the executable o15.exe
+
+build o15.exe: CXX_EXECUTABLE_LINKER__o15_Debug CMakeFiles/o15.dir/myAlgorithm/o15.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\o15.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = o15.exe
+  TARGET_IMPLIB = libo15.dll.a
+  TARGET_PDB = o15.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target o16
+
+
+#############################################
+# Order-only phony target for o16
+
+build cmake_object_order_depends_target_o16: phony || CMakeFiles/o16.dir
+
+build CMakeFiles/o16.dir/myAlgorithm/o16.cpp.obj: CXX_COMPILER__o16_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o16.cpp || cmake_object_order_depends_target_o16
+  DEP_FILE = CMakeFiles\o16.dir\myAlgorithm\o16.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\o16.dir
+  OBJECT_FILE_DIR = CMakeFiles\o16.dir\myAlgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target o16
+
+
+#############################################
+# Link the executable o16.exe
+
+build o16.exe: CXX_EXECUTABLE_LINKER__o16_Debug CMakeFiles/o16.dir/myAlgorithm/o16.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\o16.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = o16.exe
+  TARGET_IMPLIB = libo16.dll.a
+  TARGET_PDB = o16.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target o18
+
+
+#############################################
+# Order-only phony target for o18
+
+build cmake_object_order_depends_target_o18: phony || CMakeFiles/o18.dir
+
+build CMakeFiles/o18.dir/myAlgorithm/o18.cpp.obj: CXX_COMPILER__o18_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o18.cpp || cmake_object_order_depends_target_o18
+  DEP_FILE = CMakeFiles\o18.dir\myAlgorithm\o18.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\o18.dir
+  OBJECT_FILE_DIR = CMakeFiles\o18.dir\myAlgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target o18
+
+
+#############################################
+# Link the executable o18.exe
+
+build o18.exe: CXX_EXECUTABLE_LINKER__o18_Debug CMakeFiles/o18.dir/myAlgorithm/o18.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\o18.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = o18.exe
+  TARGET_IMPLIB = libo18.dll.a
+  TARGET_PDB = o18.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target o17
+
+
+#############################################
+# Order-only phony target for o17
+
+build cmake_object_order_depends_target_o17: phony || CMakeFiles/o17.dir
+
+build CMakeFiles/o17.dir/myAlgorithm/o17.cpp.obj: CXX_COMPILER__o17_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/myAlgorithm/o17.cpp || cmake_object_order_depends_target_o17
+  DEP_FILE = CMakeFiles\o17.dir\myAlgorithm\o17.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\o17.dir
+  OBJECT_FILE_DIR = CMakeFiles\o17.dir\myAlgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target o17
+
+
+#############################################
+# Link the executable o17.exe
+
+build o17.exe: CXX_EXECUTABLE_LINKER__o17_Debug CMakeFiles/o17.dir/myAlgorithm/o17.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\o17.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = o17.exe
+  TARGET_IMPLIB = libo17.dll.a
+  TARGET_PDB = o17.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target c_str
+
+
+#############################################
+# Order-only phony target for c_str
+
+build cmake_object_order_depends_target_c_str: phony || CMakeFiles/c_str.dir
+
+build CMakeFiles/c_str.dir/src/c_str.cpp.obj: CXX_COMPILER__c_str_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/src/c_str.cpp || cmake_object_order_depends_target_c_str
+  DEP_FILE = CMakeFiles\c_str.dir\src\c_str.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\c_str.dir
+  OBJECT_FILE_DIR = CMakeFiles\c_str.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target c_str
+
+
+#############################################
+# Link the executable c_str.exe
+
+build c_str.exe: CXX_EXECUTABLE_LINKER__c_str_Debug CMakeFiles/c_str.dir/src/c_str.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\c_str.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c_str.exe
+  TARGET_IMPLIB = libc_str.dll.a
+  TARGET_PDB = c_str.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target my_atoi
+
+
+#############################################
+# Order-only phony target for my_atoi
+
+build cmake_object_order_depends_target_my_atoi: phony || CMakeFiles/my_atoi.dir
+
+build CMakeFiles/my_atoi.dir/00.EmbeddedSys/my_atoi.c.obj: C_COMPILER__my_atoi_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/00.EmbeddedSys/my_atoi.c || cmake_object_order_depends_target_my_atoi
+  DEP_FILE = CMakeFiles\my_atoi.dir\00.EmbeddedSys\my_atoi.c.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\my_atoi.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_atoi.dir\00.EmbeddedSys
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_atoi
+
+
+#############################################
+# Link the executable my_atoi.exe
+
+build my_atoi.exe: C_EXECUTABLE_LINKER__my_atoi_Debug CMakeFiles/my_atoi.dir/00.EmbeddedSys/my_atoi.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\my_atoi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = my_atoi.exe
+  TARGET_IMPLIB = libmy_atoi.dll.a
+  TARGET_PDB = my_atoi.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cert_int30
+
+
+#############################################
+# Order-only phony target for cert_int30
+
+build cmake_object_order_depends_target_cert_int30: phony || CMakeFiles/cert_int30.dir
+
+build CMakeFiles/cert_int30.dir/00.EmbeddedSys/cert_int30.c.obj: C_COMPILER__cert_int30_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/00.EmbeddedSys/cert_int30.c || cmake_object_order_depends_target_cert_int30
+  DEP_FILE = CMakeFiles\cert_int30.dir\00.EmbeddedSys\cert_int30.c.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include
+  OBJECT_DIR = CMakeFiles\cert_int30.dir
+  OBJECT_FILE_DIR = CMakeFiles\cert_int30.dir\00.EmbeddedSys
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cert_int30
+
+
+#############################################
+# Link the executable cert_int30.exe
+
+build cert_int30.exe: C_EXECUTABLE_LINKER__cert_int30_Debug CMakeFiles/cert_int30.dir/00.EmbeddedSys/cert_int30.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\cert_int30.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cert_int30.exe
+  TARGET_IMPLIB = libcert_int30.dll.a
+  TARGET_PDB = cert_int30.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -2759,7 +3213,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\liulei\Desktop\clionprj\cppthing -BC:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\liulei\Desktop\clionprj\cppStudy -BC:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -2777,7 +3231,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -2789,7 +3243,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -2801,7 +3255,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -2810,7 +3264,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/liulei/Desktop/clionprj/cppthing/CMakeLists.txt
+# C:/Users/liulei/Desktop/clionprj/cppStudy/CMakeLists.txt
 # =============================================================================
 
 
@@ -2818,7 +3272,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for edit_cache
 
 build lib/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -2829,7 +3283,7 @@ build lib/edit_cache: phony lib/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build lib/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\liulei\Desktop\clionprj\cppthing -BC:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\liulei\Desktop\clionprj\cppStudy -BC:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -2847,7 +3301,7 @@ build lib/list_install_components: phony
 # Utility command for install
 
 build lib/CMakeFiles/install.util: CUSTOM_COMMAND lib/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -2859,7 +3313,7 @@ build lib/install: phony lib/CMakeFiles/install.util
 # Utility command for install/local
 
 build lib/CMakeFiles/install/local.util: CUSTOM_COMMAND lib/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -2871,7 +3325,7 @@ build lib/install/local: phony lib/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build lib/CMakeFiles/install/strip.util: CUSTOM_COMMAND lib/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -2880,7 +3334,7 @@ build lib/install/strip: phony lib/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/liulei/Desktop/clionprj/cppthing/lib/CMakeLists.txt
+# C:/Users/liulei/Desktop/clionprj/cppStudy/lib/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -2892,10 +3346,10 @@ build lib/install/strip: phony lib/CMakeFiles/install/strip.util
 
 build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest
 
-build lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_COMPILER__gmock_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/lib/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
+build lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_COMPILER__gmock_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/lib/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
   DEP_FILE = lib\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d
   FLAGS = -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googlemock/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googlemock -isystem C:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include -isystem C:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googlemock/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googlemock -isystem C:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include -isystem C:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest
   OBJECT_DIR = lib\googlemock\CMakeFiles\gmock.dir
   OBJECT_FILE_DIR = lib\googlemock\CMakeFiles\gmock.dir\src
 
@@ -2924,10 +3378,10 @@ build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug lib/googlemock/CMak
 
 build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest
 
-build lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: CXX_COMPILER__gmock_main_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/lib/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
+build lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: CXX_COMPILER__gmock_main_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/lib/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
   DEP_FILE = lib\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj.d
   FLAGS = -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -isystem C:/Users/liulei/Desktop/clionprj/cppthing/lib/googlemock/include -isystem C:/Users/liulei/Desktop/clionprj/cppthing/lib/googlemock -isystem C:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include -isystem C:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -isystem C:/Users/liulei/Desktop/clionprj/cppStudy/lib/googlemock/include -isystem C:/Users/liulei/Desktop/clionprj/cppStudy/lib/googlemock -isystem C:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include -isystem C:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest
   OBJECT_DIR = lib\googlemock\CMakeFiles\gmock_main.dir
   OBJECT_FILE_DIR = lib\googlemock\CMakeFiles\gmock_main.dir\src
 
@@ -2952,7 +3406,7 @@ build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug lib/googl
 # Utility command for edit_cache
 
 build lib/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib\googlemock && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib\googlemock && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -2963,7 +3417,7 @@ build lib/googlemock/edit_cache: phony lib/googlemock/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build lib/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib\googlemock && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\liulei\Desktop\clionprj\cppthing -BC:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib\googlemock && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\liulei\Desktop\clionprj\cppStudy -BC:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -2981,7 +3435,7 @@ build lib/googlemock/list_install_components: phony
 # Utility command for install
 
 build lib/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND lib/googlemock/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib\googlemock && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib\googlemock && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -2993,7 +3447,7 @@ build lib/googlemock/install: phony lib/googlemock/CMakeFiles/install.util
 # Utility command for install/local
 
 build lib/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND lib/googlemock/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib\googlemock && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib\googlemock && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -3005,7 +3459,7 @@ build lib/googlemock/install/local: phony lib/googlemock/CMakeFiles/install/loca
 # Utility command for install/strip
 
 build lib/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND lib/googlemock/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib\googlemock && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib\googlemock && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -3014,7 +3468,7 @@ build lib/googlemock/install/strip: phony lib/googlemock/CMakeFiles/install/stri
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/liulei/Desktop/clionprj/cppthing/lib/googlemock/CMakeLists.txt
+# C:/Users/liulei/Desktop/clionprj/cppStudy/lib/googlemock/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -3026,10 +3480,10 @@ build lib/googlemock/install/strip: phony lib/googlemock/CMakeFiles/install/stri
 
 build cmake_object_order_depends_target_gtest: phony || lib/googletest/CMakeFiles/gtest.dir
 
-build lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_COMPILER__gtest_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
+build lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_COMPILER__gtest_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
   DEP_FILE = lib\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d
   FLAGS = -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include -IC:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include -IC:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest
   OBJECT_DIR = lib\googletest\CMakeFiles\gtest.dir
   OBJECT_FILE_DIR = lib\googletest\CMakeFiles\gtest.dir\src
 
@@ -3058,10 +3512,10 @@ build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug lib/googletest/CMak
 
 build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest
 
-build lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: CXX_COMPILER__gtest_main_Debug C$:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
+build lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: CXX_COMPILER__gtest_main_Debug C$:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
   DEP_FILE = lib\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d
   FLAGS = -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17
-  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppthing/include -isystem C:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest/include -isystem C:/Users/liulei/Desktop/clionprj/cppthing/lib/googletest
+  INCLUDES = -IC:/Users/liulei/Desktop/clionprj/cppStudy/include -isystem C:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest/include -isystem C:/Users/liulei/Desktop/clionprj/cppStudy/lib/googletest
   OBJECT_DIR = lib\googletest\CMakeFiles\gtest_main.dir
   OBJECT_FILE_DIR = lib\googletest\CMakeFiles\gtest_main.dir\src
 
@@ -3086,7 +3540,7 @@ build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug lib/googl
 # Utility command for edit_cache
 
 build lib/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib\googletest && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib\googletest && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -3097,7 +3551,7 @@ build lib/googletest/edit_cache: phony lib/googletest/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build lib/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib\googletest && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\liulei\Desktop\clionprj\cppthing -BC:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib\googletest && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\liulei\Desktop\clionprj\cppStudy -BC:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -3115,7 +3569,7 @@ build lib/googletest/list_install_components: phony
 # Utility command for install
 
 build lib/googletest/CMakeFiles/install.util: CUSTOM_COMMAND lib/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib\googletest && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib\googletest && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -3127,7 +3581,7 @@ build lib/googletest/install: phony lib/googletest/CMakeFiles/install.util
 # Utility command for install/local
 
 build lib/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND lib/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib\googletest && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib\googletest && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -3139,7 +3593,7 @@ build lib/googletest/install/local: phony lib/googletest/CMakeFiles/install/loca
 # Utility command for install/strip
 
 build lib/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND lib/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppthing\cmake-build-debug\lib\googletest && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\liulei\Desktop\clionprj\cppStudy\cmake-build-debug\lib\googletest && "C:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -3163,9 +3617,11 @@ build bag0_1: phony bag0_1.exe
 
 build buildTree: phony buildTree.exe
 
+build c_str: phony c_str.exe
+
 build cast: phony cast.exe
 
-build cjson: phony cjson.exe
+build cert_int30: phony cert_int30.exe
 
 build constructor: phony constructor.exe
 
@@ -3180,6 +3636,8 @@ build define: phony define.exe
 build destruct: phony destruct.exe
 
 build dfs: phony dfs.exe
+
+build emplaceVSpush: phony emplaceVSpush.exe
 
 build factory: phony factory.exe
 
@@ -3201,8 +3659,6 @@ build inheritance: phony inheritance.exe
 
 build isLittleEndian: phony isLittleEndian.exe
 
-build jsoncpp: phony jsoncpp.exe
-
 build lambda: phony lambda.exe
 
 build libgmock.a: phony lib/libgmock.a
@@ -3219,11 +3675,19 @@ build maohao: phony maohao.exe
 
 build mempool_c: phony mempool_c.exe
 
+build move_copy: phony move_copy.exe
+
 build mutex: phony mutex.exe
 
 build myAlgorithm: phony myAlgorithm.exe
 
+build my_atoi: phony my_atoi.exe
+
 build my_heapsort: phony my_heapsort.exe
+
+build my_share_ptr: phony my_share_ptr.exe
+
+build my_shared_ptr: phony my_shared_ptr.exe
 
 build my_sort: phony my_sort.exe
 
@@ -3239,6 +3703,8 @@ build mystack: phony mystack.exe
 
 build mystl_string: phony mystl_string.exe
 
+build mystl_vector: phony mystl_vector.exe
+
 build mystring: phony mystring.exe
 
 build mythread: phony mythread.exe
@@ -3248,6 +3714,24 @@ build myvector: phony myvector.exe
 build number_limits: phony number_limits.exe
 
 build o1: phony o1.exe
+
+build o10: phony o10.exe
+
+build o11: phony o11.exe
+
+build o12: phony o12.exe
+
+build o13: phony o13.exe
+
+build o14: phony o14.exe
+
+build o15: phony o15.exe
+
+build o16: phony o16.exe
+
+build o17: phony o17.exe
+
+build o18: phony o18.exe
 
 build o2: phony o2.exe
 
@@ -3262,6 +3746,8 @@ build o6: phony o6.exe
 build o7: phony o7.exe
 
 build o8: phony o8.exe
+
+build o9: phony o9.exe
 
 build oj: phony oj.exe
 
@@ -3315,36 +3801,34 @@ build virtual_func: phony virtual_func.exe
 
 build weak_ptr: phony weak_ptr.exe
 
-build yazi-json: phony yazi-json.exe
-
 # =============================================================================
 # Folder targets.
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/liulei/Desktop/clionprj/cppthing/cmake-build-debug
+# Folder: C:/Users/liulei/Desktop/clionprj/cppStudy/cmake-build-debug
 
-build all: phony gtestDemo.exe cppthing.exe mymap.exe assert.exe poly.exe maohao.exe define.exe mystring.exe myvector.exe mystack.exe oj.exe template.exe my_sort.exe test.exe salary.exe LRU.exe LRUopt.exe LRUnoListOpt.exe override.exe friend.exe constructor.exe cast.exe trieTree.exe shortJobFirst.exe trieTree_replaceWords.exe buildTree.exe mypriority_queue.exe simplefactory.exe singleton.exe mythread.exe lock_guard.exe destruct.exe unique_lock.exe mutex.exe rightquete.exe lambda.exe factory.exe abstractfactory.exe my_heapsort.exe quicksort.exe isLittleEndian.exe virtual_func.exe func_point.exe number_limits.exe string_input.exe bag0_1.exe simplefactory1.exe yazi-json.exe jsoncpp.exe cjson.exe mystl_string.exe my_string.exe pionter.exe productor_consumer.exe perfect_define.exe param_passing.exe copy_move_constructor.exe copy_constuctor.exe smart_ptr.exe ref_count.exe weak_ptr.exe thread_pool.exe mempool_c.exe inheritance.exe myAlgorithm.exe dfs.exe onlinetest.exe o1.exe o2.exe o3.exe o4.exe o5.exe o6.exe o7.exe o8.exe mymultimap.exe lib/all
+build all: phony gtestDemo.exe cppthing.exe mymap.exe assert.exe poly.exe maohao.exe define.exe mystring.exe myvector.exe mystack.exe oj.exe template.exe my_sort.exe test.exe salary.exe LRU.exe LRUopt.exe LRUnoListOpt.exe override.exe friend.exe constructor.exe cast.exe trieTree.exe shortJobFirst.exe trieTree_replaceWords.exe buildTree.exe mypriority_queue.exe simplefactory.exe singleton.exe mythread.exe lock_guard.exe destruct.exe unique_lock.exe mutex.exe rightquete.exe lambda.exe factory.exe abstractfactory.exe my_heapsort.exe quicksort.exe isLittleEndian.exe virtual_func.exe func_point.exe number_limits.exe string_input.exe bag0_1.exe simplefactory1.exe mystl_string.exe my_string.exe pionter.exe productor_consumer.exe perfect_define.exe param_passing.exe copy_move_constructor.exe copy_constuctor.exe smart_ptr.exe ref_count.exe weak_ptr.exe thread_pool.exe mempool_c.exe inheritance.exe myAlgorithm.exe dfs.exe onlinetest.exe o1.exe o2.exe o3.exe o4.exe o5.exe o6.exe o7.exe o8.exe mymultimap.exe move_copy.exe my_share_ptr.exe my_shared_ptr.exe o9.exe o10.exe o11.exe mystl_vector.exe emplaceVSpush.exe o12.exe o13.exe o14.exe o15.exe o16.exe o18.exe o17.exe c_str.exe my_atoi.exe cert_int30.exe lib/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/liulei/Desktop/clionprj/cppthing/cmake-build-debug/lib
+# Folder: C:/Users/liulei/Desktop/clionprj/cppStudy/cmake-build-debug/lib
 
 build lib/all: phony lib/googlemock/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/liulei/Desktop/clionprj/cppthing/cmake-build-debug/lib/googlemock
+# Folder: C:/Users/liulei/Desktop/clionprj/cppStudy/cmake-build-debug/lib/googlemock
 
 build lib/googlemock/all: phony lib/libgmock.a lib/libgmock_main.a lib/googletest/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/liulei/Desktop/clionprj/cppthing/cmake-build-debug/lib/googletest
+# Folder: C:/Users/liulei/Desktop/clionprj/cppStudy/cmake-build-debug/lib/googletest
 
 build lib/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 

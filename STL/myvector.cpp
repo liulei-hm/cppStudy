@@ -150,12 +150,23 @@ void test_array_point(){
     printf("&a[0]+1 = %p\n",&a[0]+1);   //这两个一样
     printf("pa+1 = %p\n",pa+1);
 }
+
+
 void test_array_array(){
-    int b[3][4] = {0,1,2,3,
+    int a[3][4] = {0,1,2,3,
                    4,5,6,7,
                    8,10,11,12};
-    int (*pb)[4] = b;
+    int (*pb)[4] = a;
+    printf("*(a+1) = %d\n",*(a+1));  //792722640
+    printf("a[0]+1 = %d\n",a[0]+1);  //792722640
+    printf("**(a+1)+2 = %d\n",**(a+1)+2);  //6+2
     printf("*(pb[1]+1) = %d\n",*(pb[1]+1)); //5
+
+    int b[]={4,5,6,7,8};
+    int *p = b;
+    *p++=100;  //将整数值 100 存储到指针 p 所指向的内存单元中，并将指针 p 指向下一个内存单元。这个表达式常见于对数组的遍历
+    printf("%d %d\n", *p,*(++p));
+    //变量a是一个数组，a++是否合法 合法 数组的下一个元素，但是a+1和&a+1不同，&a+1指向数组最后的后面
 }
 
 void call_c_api(int *v,int size){
@@ -178,17 +189,8 @@ void test_vector_pointer(){
 
 int main(){
     //test_vector_pointer();
-    int n=6;
-    while(n--){
-        int i=3;
-        switch (i) {
-            case 3:
-                cout << "3" << endl;
-                continue;
-            default:
-                break;
-        }
-        cout << "after continue";
-    }
+    //test_array_array();
+    int a[2][3]={1,3,5,7,9,11};
+    cout << *(a+1);
     return 0;
 }

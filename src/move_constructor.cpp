@@ -63,7 +63,7 @@ public:
     Move_Copy(Move_Copy &&other)  noexcept // 移动构造函数，参数是右值引用
     {
         p = other.p; // 直接从右值对象中“偷取”资源
-        other.p = nullptr; // 将右值对象中的资源指针设为空指针，避免重复释放内存
+        other.p = nullptr; //将右值对象中的资源指针设为空指针，避免重复释放内存
         m_object = other.m_object;
         other.m_object = nullptr;
         v = std::move(other.v);
@@ -97,7 +97,7 @@ public:
             other.p = nullptr; // 将右值对象中的资源指针设为空指针，避免重复释放内存
             m_object = other.m_object;
             other.m_object = nullptr;
-            v = std::move(other.v);
+            v = other.v;
             cout << " operator = move assignment constructor" << endl;
         }
         return *this;
@@ -154,10 +154,22 @@ void test_func(){
     ex2 = ex3; // 调用拷贝赋值运算符函数
     ex2 = std::move(ex3); // 调用移动赋值运算符函数
  * */
+void func(Move_Copy &t1){
+    cout << "左值引用" << endl;
+}
+void func(Move_Copy &&t1){
+    cout << "右值引用" << endl;
+}
+//右值引用变量其实是左值
+void test_Rightyinyong(Move_Copy &&t1){
+    //func(std::forward<Move_Copy>(t1));
+    func(t1);
+}
 
 //测试时最好在cmake中关闭编译器优化
 int main(){
-
+    Move_Copy t1;
+    test_Rightyinyong(std::move(t1));
     return 0;
 }
 

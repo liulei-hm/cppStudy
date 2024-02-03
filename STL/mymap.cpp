@@ -142,6 +142,9 @@ void mymap(){
 //map<key,value> key±ØÐëÎ¨Ò»
 int main() {
     //diff_unorderMapAndMap();
-    mymultimap();
-
+    //mymultimap();
+    unordered_map<int,int> a;
+    a[2] = 23;
+    a[5] = 232;
+    cout << a[4];
 }

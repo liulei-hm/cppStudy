@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.23)
-project(cppthing)
+project(cppstudy)
 
 set(CMAKE_CXX_STANDARD 17)
 # 指定头文件搜索路径
@@ -65,26 +65,7 @@ add_executable(string_input OJ/string_input.cpp)
 add_executable(bag0_1 Algorithm/bag0_1.cpp)
 add_executable(simplefactory1 DesignPattern/SimpleFactory/simplefactory1.cpp)
 
-#自动添加到工程，显示如下
-add_executable(yazi-json yazi-json/yazi.cpp yazi-json/json.h yazi-json/json.cpp yazi-json/paser.cpp yazi-json/paser.h)
 
-
-#手动添加到工程的方法
-file(GLOB JSONCPP_SOURCE_FILES
-        yazi-json/jsoncpp/lib/*.h
-        yazi-json/jsoncpp/lib/*.cpp
-        )
-add_executable(jsoncpp yazi-json/jsoncpp/jsoncpp.cpp ${JSONCPP_SOURCE_FILES})
-
-
-
-file(GLOB CJSON_SOURCE_FILES
-        yazi-json/cJSON/*.h
-        yazi-json/cJSON/*.c
-        yazi-json/cJSON/lib/*.c
-        yazi-json/cJSON/lib/*.h
-        )
-add_executable(cjson yazi-json/cJSON/main.c ${CJSON_SOURCE_FILES})
 add_executable(mystl_string STL/mystl_string.cpp)
 add_executable(my_string STL/String/my_string.cpp STL/String/my_string.h)
 add_executable(pionter src/pionter.cpp)
@@ -119,3 +100,21 @@ add_executable(o6 myAlgorithm/o6.cpp)
 add_executable(o7 myAlgorithm/o7.cpp)
 add_executable(o8 myAlgorithm/o8.cpp)
 add_executable(mymultimap STL/mymultimap.cpp)
+add_executable(move_copy src/move_copy.cpp)
+add_executable(my_share_ptr STL/my_share_ptr.cpp)
+add_executable(my_shared_ptr STL/my_shared_ptr.cpp)
+add_executable(o9 myAlgorithm/o9.cpp)
+add_executable(o10 myAlgorithm/o10.cpp)
+add_executable(o11 myAlgorithm/o11.cpp myAlgorithm/httplib.h)
+add_executable(mystl_vector STL/mystl_vector.cpp)
+add_executable(emplaceVSpush STL/emplaceVSpush.cpp)
+add_executable(o12 myAlgorithm/o12.cpp)
+add_executable(o13 myAlgorithm/o13.cpp)
+add_executable(o14 myAlgorithm/o14.cpp)
+add_executable(o15 myAlgorithm/o15.cpp)
+add_executable(o16 myAlgorithm/o16.cpp)
+add_executable(o18 myAlgorithm/o18.cpp)
+add_executable(o17 myAlgorithm/o17.cpp)
+add_executable(c_str src/c_str.cpp)
+add_executable(my_atoi 00.EmbeddedSys/my_atoi.c)
+add_executable(cert_int30 00.EmbeddedSys/cert_int30.c)

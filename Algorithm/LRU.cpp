@@ -69,7 +69,7 @@ enum INPUTN {
     KEY = 0,
     VALUE,
 };
-unordered_map<string, INPUTS> op = {
+unordered_map<string, INPUTS> op_map = {
         {"LRUCache", LRUCACHE},
         {"get", GET},
         {"put", PUT},
@@ -87,7 +87,7 @@ vector<vector<int>> inputN = {{2},
 int main() {
     LRUCache *lruCache = NULL;
     for (int i = 0; i < inputS.size(); i++) {
-        INPUTS opcase = op[inputS[i]];
+        INPUTS opcase = op_map[inputS[i]];
         if(lruCache==NULL&&opcase!=LRUCACHE)
         {
             cout << "INIT ERROR!";
